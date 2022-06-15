@@ -1,0 +1,1302 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "personnel",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.815472, 59.989302 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 31 - SV (T2 Austbygde)",
+				"info_hover" : ", 31 - SV",
+				"name" : "T2 Austbygde",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 74,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 231,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "T2 Austbygde",
+				"info" : "31 - SV",
+				"pos_north" : 59.989302,
+				"pos_east" : 8.815472,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 31 - SV (T2 Austbygde)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.815267, 59.989201 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 32 - SV (T2 Austbygde)",
+				"info_hover" : ", 32 - SV",
+				"name" : "T2 Austbygde",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 75,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 232,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "T2 Austbygde",
+				"info" : "32 - SV",
+				"pos_north" : 59.989201,
+				"pos_east" : 8.815267,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 32 - SV (T2 Austbygde)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.815387, 59.989074 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 33 - SV (T2 Austbygde)",
+				"info_hover" : ", 33 - LV",
+				"name" : "T2 Austbygde",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 76,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 133,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "T2 Austbygde",
+				"info" : "33 - LV",
+				"pos_north" : 59.989074,
+				"pos_east" : 8.815387,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 33 - SV (T2 Austbygde)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.815242, 59.988942 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 34 - SV (T2 Austbygde)",
+				"info_hover" : ", 34 - LV",
+				"name" : "T2 Austbygde",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 77,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 134,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "T2 Austbygde",
+				"info" : "34 - LV",
+				"pos_north" : 59.988942,
+				"pos_east" : 8.815242,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 34 - SV (T2 Austbygde)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.814372, 59.988457 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 35 - SV (T2 Austbygde)",
+				"info_hover" : ", 35 - LV",
+				"name" : "T2 Austbygde",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 78,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 135,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "T2 Austbygde",
+				"info" : "35 - LV",
+				"pos_north" : 59.988457,
+				"pos_east" : 8.814372,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 35 - SV (T2 Austbygde)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.828414, 59.995559 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 30 - LV (Austbygde,ved behov)",
+				"info_hover" : ", 30 - LV",
+				"name" : "Austbygde, ved behov ",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 79,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 130,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Austbygde, ved behov ",
+				"info" : "30 - LV",
+				"pos_north" : 59.995559,
+				"pos_east" : 8.828414,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 30 - LV (Austbygde,ved behov)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.828184, 59.995441 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 29 - SV (Austbygde)",
+				"info_hover" : ", 29 - SV",
+				"name" : "Austbygde ",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 80,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 229,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Austbygde ",
+				"info" : "29 - SV",
+				"pos_north" : 59.995441,
+				"pos_east" : 8.828184,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 29 - SV (Austbygde)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.59934, 60.266767 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 27 - LV (Bjørkeflåta viser vei)",
+				"info_hover" : ", 27 - LV",
+				"name" : "Bjørkeflåta viser vei",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 86,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 127,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Bjørkeflåta viser vei",
+				"info" : "27 - LV",
+				"pos_north" : 60.266767,
+				"pos_east" : 8.59934,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 27 - LV (Bjørkeflåta viser vei)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.599136, 60.266689 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 28 - LV (Bjørkeflåta viser vei)",
+				"info_hover" : ", 28 - LV",
+				"name" : "Bjørkeflåta viser vei",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 87,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 128,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Bjørkeflåta viser vei",
+				"info" : "28 - LV",
+				"pos_north" : 60.266689,
+				"pos_east" : 8.599136,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 28 - LV (Bjørkeflåta viser vei)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.5036, 60.3683 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 21 (Dyranut)",
+				"info_hover" : ", 21",
+				"name" : "Dyranut",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 88,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 121,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Dyranut",
+				"info" : "21",
+				"pos_north" : 60.3683,
+				"pos_east" : 7.5036,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 21 (Dyranut)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.50263, 60.368 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 20 (Dyranut)",
+				"info_hover" : ", 20",
+				"name" : "Dyranut",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 89,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 120,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Dyranut",
+				"info" : "20",
+				"pos_north" : 60.368,
+				"pos_east" : 7.50263,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 20 (Dyranut)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.5037, 60.3682 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 23 - SV (Dyranut)",
+				"info_hover" : ", 23 - SV",
+				"name" : "Dyranut",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 91,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 223,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Dyranut",
+				"info" : "23 - SV",
+				"pos_north" : 60.3682,
+				"pos_east" : 7.5037,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 23 - SV (Dyranut)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.5035, 60.3679 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 22 (Dyranut)",
+				"info_hover" : ", 22",
+				"name" : "Dyranut",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 92,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 122,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Dyranut",
+				"info" : "22",
+				"pos_north" : 60.3679,
+				"pos_east" : 7.5035,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 22 (Dyranut)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.50281, 60.36823 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 19 (Dyranut)",
+				"info_hover" : ", 19",
+				"name" : "Dyranut",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 93,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 119,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Dyranut",
+				"info" : "19",
+				"pos_north" : 60.36823,
+				"pos_east" : 7.50281,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 19 (Dyranut)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.5039, 60.3681 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 24 (Dyranut)",
+				"info_hover" : ", 24",
+				"name" : "Dyranut",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 94,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 124,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Dyranut",
+				"info" : "24",
+				"pos_north" : 60.3681,
+				"pos_east" : 7.5039,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 24 (Dyranut)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.50249, 60.36828 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 18 - SV (Dyranut)",
+				"info_hover" : ", 18 - SV",
+				"name" : "Dyranut",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 95,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 218,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Dyranut",
+				"info" : "18 - SV",
+				"pos_north" : 60.36828,
+				"pos_east" : 7.50249,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 18 - SV (Dyranut)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.206289, 60.422449 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);Politi (Politi inngang Måbøtunell)",
+				"info_hover" : ", Politi inngang Måbøtunell",
+				"name" : "Politi",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 101,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 25,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Politi",
+				"info" : "Politi inngang Måbøtunell",
+				"pos_north" : 60.422449,
+				"pos_east" : 7.206289,
+				"zoom" : 18,
+				"keyword_search" : "Politi (Politi inngang Måbøtunell)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.206268, 60.422869 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 10 - LV   (observering syklister inn mot Måbø)",
+				"info_hover" : ", 10 - LV  ",
+				"name" : "observering syklister inn mot Måbø",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 102,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 110,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "observering syklister inn mot Måbø",
+				"info" : "10 - LV  ",
+				"pos_north" : 60.422869,
+				"pos_east" : 7.206268,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 10 - LV   (observering syklister inn mot Måbø)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.206577, 60.42296 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 11 - SV   (observering syklister inn mot Måbø)",
+				"info_hover" : ", 11 - SV  ",
+				"name" : "observering syklister inn mot Måbø",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 103,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 211,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "observering syklister inn mot Måbø",
+				"info" : "11 - SV  ",
+				"pos_north" : 60.42296,
+				"pos_east" : 7.206577,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 11 - SV   (observering syklister inn mot Måbø)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.232838, 60.424904 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);Politi  (Politi utgang Måbøtunell)",
+				"info_hover" : ", Politi utgang Måbøtunell",
+				"name" : "Politi ",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 104,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 25,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Politi ",
+				"info" : "Politi utgang Måbøtunell",
+				"pos_north" : 60.424904,
+				"pos_east" : 7.232838,
+				"zoom" : 18,
+				"keyword_search" : "Politi  (Politi utgang Måbøtunell)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.23275, 60.424677 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 12 - LV   (lede syklister inn på gamleveg Måbø)",
+				"info_hover" : ", 12 - LV  ",
+				"name" : "lede syklister inn på gamleveg Måbø",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 105,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 112,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "lede syklister inn på gamleveg Måbø",
+				"info" : "12 - LV  ",
+				"pos_north" : 60.424677,
+				"pos_east" : 7.23275,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 12 - LV   (lede syklister inn på gamleveg Måbø)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.114221, 60.425053 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 08 - SV  (etter tunell øvre Eidfjord)",
+				"info_hover" : ", 08 - SV ",
+				"name" : "etter tunell øvre Eidfjord",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 107,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 208,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "etter tunell øvre Eidfjord",
+				"info" : "08 - SV ",
+				"pos_north" : 60.425053,
+				"pos_east" : 7.114221,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 08 - SV  (etter tunell øvre Eidfjord)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.246345, 60.425401 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 13 (Vøringsfossen veilede syklister inn på Rv7)",
+				"info_hover" : ", 13",
+				"name" : "Vøringsfossen veilede syklister inn på Rv7",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 112,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 113,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Vøringsfossen veilede syklister inn på Rv7",
+				"info" : "13",
+				"pos_north" : 60.425401,
+				"pos_east" : 7.246345,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 13 (Vøringsfossen veilede syklister inn på Rv7)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.246574, 60.425296 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 14 - SV  (Vøringsfossen sikre innkjøring på Rv7)",
+				"info_hover" : ", 14 - SV ",
+				"name" : "Vøringsfossen sikre innkjøring på Rv7",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 114,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 214,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Vøringsfossen sikre innkjøring på Rv7",
+				"info" : "14 - SV ",
+				"pos_north" : 60.425296,
+				"pos_east" : 7.246574,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 14 - SV  (Vøringsfossen sikre innkjøring på Rv7)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.107079, 60.44284 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 07 - LV - Med sperre  (før tunell øvre Eidfjord)",
+				"info_hover" : ", 07 - LV - Med sperre ",
+				"name" : "før tunell øvre Eidfjord",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 115,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 107,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "før tunell øvre Eidfjord",
+				"info" : "07 - LV - Med sperre ",
+				"pos_north" : 60.44284,
+				"pos_east" : 7.107079,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 07 - LV - Med sperre  (før tunell øvre Eidfjord)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.107038, 60.442958 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 06 - LV - Med sperre  (før tunell øvre Eidfjord)",
+				"info_hover" : ", 06 - LV - Med sperre ",
+				"name" : "før tunell øvre Eidfjord",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 116,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 106,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "før tunell øvre Eidfjord",
+				"info" : "06 - LV - Med sperre ",
+				"pos_north" : 60.442958,
+				"pos_east" : 7.107038,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 06 - LV - Med sperre  (før tunell øvre Eidfjord)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.06858, 60.4665 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 02 - LV / SV  (Sentrum Eidfjord)",
+				"info_hover" : ", 02 - LV / SV ",
+				"name" : "Sentrum Eidfjord",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 123,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 102,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Sentrum Eidfjord",
+				"info" : "02 - LV / SV ",
+				"pos_north" : 60.4665,
+				"pos_east" : 7.06858,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 02 - LV / SV  (Sentrum Eidfjord)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.06924, 60.46653 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 03 - LV  (Sentrum Eidfjord)",
+				"info_hover" : ", 03 - LV ",
+				"name" : "Sentrum Eidfjord",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 124,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 103,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Sentrum Eidfjord",
+				"info" : "03 - LV ",
+				"pos_north" : 60.46653,
+				"pos_east" : 7.06924,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 03 - LV  (Sentrum Eidfjord)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.06837, 60.46654 ]
+			},
+			"properties" : {
+				"filter_search" : "Personel (8);Red Cross (medical assistance)",
+				"info_hover" : ", medical assistance",
+				"name" : "Red Cross",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 125,
+				"group" : "Personel (8)",
+				"icon_subgroup" : 26,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Red Cross",
+				"info" : "medical assistance",
+				"pos_north" : 60.46654,
+				"pos_east" : 7.06837,
+				"zoom" : 16,
+				"keyword_search" : "Red Cross (medical assistance)",
+				"active" : 1,
+				"text_link" : "https://www.rodekors.no/en/om-rode-kors/english-pages/",
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.0685, 60.46684 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 01 - SV / MV  (Sentrum Eidfjord)",
+				"info_hover" : ", 01 - SV / MV ",
+				"name" : "Sentrum Eidfjord ",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 127,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 201,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Sentrum Eidfjord ",
+				"info" : "01 - SV / MV ",
+				"pos_north" : 60.46684,
+				"pos_east" : 7.0685,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 01 - SV / MV  (Sentrum Eidfjord)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.281343, 60.41152 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 15 - SV (Support Garen)",
+				"info_hover" : ", 15 - SV",
+				"name" : "Support Garen",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 128,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 215,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Support Garen",
+				"info" : "15 - SV",
+				"pos_north" : 60.41152,
+				"pos_east" : 7.281343,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 15 - SV (Support Garen)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.282875, 60.411733 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 16 (Support Garen)",
+				"info_hover" : ", 16",
+				"name" : "Support Garen",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 129,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 116,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Support Garen",
+				"info" : "16",
+				"pos_north" : 60.411733,
+				"pos_east" : 7.282875,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 16 (Support Garen)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.284616, 60.41182 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 17 (Support Garen)",
+				"info_hover" : ", 17",
+				"name" : "Support Garen",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 130,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 117,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Support Garen",
+				"info" : "17",
+				"pos_north" : 60.41182,
+				"pos_east" : 7.284616,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 17 (Support Garen)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.07075, 60.4674 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 05 - LV - Alternativ Skiftesone  (Simadalsvegen)",
+				"info_hover" : ", 05 - LV - Alternativ Skiftesone ",
+				"name" : "Simadalsvegen",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 132,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 105,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Simadalsvegen",
+				"info" : "05 - LV - Alternativ Skiftesone ",
+				"pos_north" : 60.4674,
+				"pos_east" : 7.07075,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 05 - LV - Alternativ Skiftesone  (Simadalsvegen)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.07082, 60.46758 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 04 - SV - Alternativ Skiftesone  (T1-Simadalsvegen)",
+				"info_hover" : ", 04 - SV - Alternativ Skiftesone ",
+				"name" : "T1-Simadalsvegen",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 133,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 204,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "T1-Simadalsvegen",
+				"info" : "04 - SV - Alternativ Skiftesone ",
+				"pos_north" : 60.46758,
+				"pos_east" : 7.07082,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 04 - SV - Alternativ Skiftesone  (T1-Simadalsvegen)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.2088, 60.52823 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);Røde kors (Røde Kors Geilo)",
+				"info_hover" : ", Røde Kors Geilo",
+				"name" : "Røde kors",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 138,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 26,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Røde kors",
+				"info" : "Røde Kors Geilo",
+				"pos_north" : 60.52823,
+				"pos_east" : 8.2088,
+				"zoom" : 16,
+				"keyword_search" : "Røde kors (Røde Kors Geilo)",
+				"active" : 1,
+				"text_link" : "https://www.rodekors.no/en/om-rode-kors/english-pages/",
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.208895, 60.533713 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 25 - SV (rundkjøring Geilo)",
+				"info_hover" : ", 25 - SV",
+				"name" : "rundkjøring Geilo",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 142,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 225,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "rundkjøring Geilo",
+				"info" : "25 - SV",
+				"pos_north" : 60.533713,
+				"pos_east" : 8.208895,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 25 - SV (rundkjøring Geilo)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.208986, 60.533958 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 26 - SV (rundkjøring Geilo)",
+				"info_hover" : ", 26 - SV",
+				"name" : "rundkjøring Geilo",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 143,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 226,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "rundkjøring Geilo",
+				"info" : "26 - SV",
+				"pos_north" : 60.533958,
+				"pos_east" : 8.208986,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 26 - SV (rundkjøring Geilo)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.195102, 60.417547 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);L-vakt 09 - LV / SV  (innkjøring gamlevegen)",
+				"info_hover" : ", 9 - LV / SV ",
+				"name" : "innkjøring gamlevegen",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 145,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 109,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "innkjøring gamlevegen",
+				"info" : "9 - LV / SV ",
+				"pos_north" : 60.417547,
+				"pos_east" : 7.195102,
+				"zoom" : 18,
+				"keyword_search" : "L-vakt 09 - LV / SV  (innkjøring gamlevegen)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.688724, 59.868862 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);P-vakt 36 - LV (32.5 viser vei til parkering)",
+				"info_hover" : ", 36 - LV",
+				"name" : "32.5 viser vei til parkering",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 160,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 136,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "32.5 viser vei til parkering",
+				"info" : "36 - LV",
+				"pos_north" : 59.868862,
+				"pos_east" : 8.688724,
+				"zoom" : 18,
+				"keyword_search" : "P-vakt 36 - LV (32.5 viser vei til parkering)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.688677, 59.868511 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);P-vakt 37 - LV (32.5 viser vei til parkering)",
+				"info_hover" : ", 37 - LV",
+				"name" : "32.5 viser vei til parkering",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 161,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 137,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "32.5 viser vei til parkering",
+				"info" : "37 - LV",
+				"pos_north" : 59.868511,
+				"pos_east" : 8.688677,
+				"zoom" : 18,
+				"keyword_search" : "P-vakt 37 - LV (32.5 viser vei til parkering)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.71414, 59.834673 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);P-vakt 38 - LV (37.5 viser vei til parkering, Buss)",
+				"info_hover" : ", 38 - LV",
+				"name" : "37.5 viser vei til parkering, Buss",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 162,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 138,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "37.5 viser vei til parkering, Buss",
+				"info" : "38 - LV",
+				"pos_north" : 59.834673,
+				"pos_east" : 8.71414,
+				"zoom" : 18,
+				"keyword_search" : "P-vakt 38 - LV (37.5 viser vei til parkering, Buss)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.714082, 59.83444 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);P-vakt 39 - LV (37.5 viser vei til parkering, Buss)",
+				"info_hover" : ", 39 - LV",
+				"name" : "37.5 viser vei til parkering, Buss",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 163,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 139,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "37.5 viser vei til parkering, Buss",
+				"info" : "39 - LV",
+				"pos_north" : 59.83444,
+				"pos_east" : 8.714082,
+				"zoom" : 18,
+				"keyword_search" : "P-vakt 39 - LV (37.5 viser vei til parkering, Buss)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.114527, 60.424942 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);Politi  (Politi Øvre  Eidfjord utgang tunell)",
+				"info_hover" : ", Politi Øvre  Eidfjord utgang tunell",
+				"name" : "Politi ",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 165,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 25,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Politi ",
+				"info" : "Politi Øvre  Eidfjord utgang tunell",
+				"pos_north" : 60.424942,
+				"pos_east" : 7.114527,
+				"zoom" : 18,
+				"keyword_search" : "Politi  (Politi Øvre  Eidfjord utgang tunell)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.818145, 59.99049 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);P-vakt 40 - LV (P1 ved T2)",
+				"info_hover" : ", 40 - LV",
+				"name" : "P-vakt 40 - LV (P1 ved T2)",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 181,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 140,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "P-vakt 40 - LV (P1 ved T2)",
+				"info" : "40 - LV",
+				"pos_north" : 59.99049,
+				"pos_east" : 8.818145,
+				"zoom" : 18,
+				"keyword_search" : "P-vakt 40 - LV (P1 ved T2)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.812468, 59.987553 ]
+			},
+			"properties" : {
+				"filter_search" : "Personell (8);P-vakt 41 - LV (P2 ved T2)",
+				"info_hover" : ", 41 - LV",
+				"name" : "P-vakt 41 - LV (P2 ved T2)",
+				"picture_link" : " ",
+				"icon_group" : 8,
+				"type" : "8",
+				"id" : 182,
+				"group" : "Personell (8)",
+				"icon_subgroup" : 141,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "P-vakt 41 - LV (P2 ved T2)",
+				"info" : "41 - LV",
+				"pos_north" : 59.987553,
+				"pos_east" : 8.812468,
+				"zoom" : 18,
+				"keyword_search" : "P-vakt 41 - LV (P2 ved T2)",
+				"active" : 1
+			}
+		}
+	]
+}

@@ -1,0 +1,1150 @@
+{
+	"name" : "NewFeatureType",
+	"type" : "FeatureCollection",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.7656403791770998, 59.990282199197317 ]
+			},
+			"properties" : {
+				"latti" : 59.990282199197317,
+				"longi" : 8.7656403791770998,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "3",
+				"dist_to_go" : "39.2",
+				"climb_to_go" : "1797",
+				"run_segment_count" : "1",
+				"s_sum_h_up" : "21",
+				"s_akk_sum_h_up" : 21,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.7372979316591817, 59.984764202997511 ]
+			},
+			"properties" : {
+				"latti" : 59.984764202997511,
+				"longi" : 8.7372979316591817,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "6",
+				"dist_to_go" : "36.2",
+				"climb_to_go" : "1756",
+				"run_segment_count" : "2",
+				"s_sum_h_up" : "42",
+				"s_akk_sum_h_up" : 63,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.786901389130561, 59.974860864213007 ]
+			},
+			"properties" : {
+				"latti" : 59.974860864213007,
+				"longi" : 8.786901389130561,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "9",
+				"dist_to_go" : "33.2",
+				"climb_to_go" : "1747",
+				"run_segment_count" : "3",
+				"s_sum_h_up" : "8",
+				"s_akk_sum_h_up" : 71,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.8256006547651094, 59.957258760231682 ]
+			},
+			"properties" : {
+				"latti" : 59.957258760231682,
+				"longi" : 8.8256006547651094,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "12",
+				"dist_to_go" : "30.2",
+				"climb_to_go" : "1727",
+				"run_segment_count" : "4",
+				"s_sum_h_up" : "20",
+				"s_akk_sum_h_up" : 91,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.8052896393112139, 59.934144131189214 ]
+			},
+			"properties" : {
+				"latti" : 59.934144131189214,
+				"longi" : 8.8052896393112139,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "15",
+				"dist_to_go" : "27.2",
+				"climb_to_go" : "1716",
+				"run_segment_count" : "5",
+				"s_sum_h_up" : "11",
+				"s_akk_sum_h_up" : 103,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.7620065592628826, 59.925481240608271 ]
+			},
+			"properties" : {
+				"latti" : 59.925481240608271,
+				"longi" : 8.7620065592628826,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "18",
+				"dist_to_go" : "24.2",
+				"climb_to_go" : "1704",
+				"run_segment_count" : "6",
+				"s_sum_h_up" : "12",
+				"s_akk_sum_h_up" : 115,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.721157360094308, 59.910951776259353 ]
+			},
+			"properties" : {
+				"latti" : 59.910951776259353,
+				"longi" : 8.721157360094308,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "21",
+				"dist_to_go" : "21.2",
+				"climb_to_go" : "1685",
+				"run_segment_count" : "7",
+				"s_sum_h_up" : "18",
+				"s_akk_sum_h_up" : 133,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.6915803515244896, 59.88883460972724 ]
+			},
+			"properties" : {
+				"latti" : 59.88883460972724,
+				"longi" : 8.6915803515244896,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "24",
+				"dist_to_go" : "18.2",
+				"climb_to_go" : "1652",
+				"run_segment_count" : "8",
+				"s_sum_h_up" : "33",
+				"s_akk_sum_h_up" : 167,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.6985142745708934, 59.887424526656318 ]
+			},
+			"properties" : {
+				"latti" : 59.887424526656318,
+				"longi" : 8.6985142745708934,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "27",
+				"dist_to_go" : "15.2",
+				"climb_to_go" : "1489",
+				"run_segment_count" : "9",
+				"s_sum_h_up" : "163",
+				"s_akk_sum_h_up" : 330,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.6994037104421142, 59.881209317882053 ]
+			},
+			"properties" : {
+				"latti" : 59.881209317882053,
+				"longi" : 8.6994037104421142,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "30",
+				"dist_to_go" : "12.2",
+				"climb_to_go" : "1207",
+				"run_segment_count" : "10",
+				"s_sum_h_up" : "281",
+				"s_akk_sum_h_up" : 611,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.6873803840151496, 59.866131071543357 ]
+			},
+			"properties" : {
+				"latti" : 59.866131071543357,
+				"longi" : 8.6873803840151496,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "33",
+				"dist_to_go" : "9.2",
+				"climb_to_go" : "917",
+				"run_segment_count" : "11",
+				"s_sum_h_up" : "290",
+				"s_akk_sum_h_up" : 901,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.7013786748531778, 59.845261245470525 ]
+			},
+			"properties" : {
+				"latti" : 59.845261245470525,
+				"longi" : 8.7013786748531778,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "36",
+				"dist_to_go" : "6.2",
+				"climb_to_go" : "725",
+				"run_segment_count" : "12",
+				"s_sum_h_up" : "192",
+				"s_akk_sum_h_up" : 1093,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.6922221794713099, 59.841991140213878 ]
+			},
+			"properties" : {
+				"latti" : 59.841991140213878,
+				"longi" : 8.6922221794713099,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "39",
+				"dist_to_go" : "3.2",
+				"climb_to_go" : "500",
+				"run_segment_count" : "13",
+				"s_sum_h_up" : "226",
+				"s_akk_sum_h_up" : 1319,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.655896, 59.850370999535393 ]
+			},
+			"properties" : {
+				"latti" : 59.850370999535393,
+				"longi" : 8.655896,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "42",
+				"dist_to_go" : "0",
+				"climb_to_go" : "0",
+				"run_segment_count" : "14",
+				"s_sum_h_up" : "500",
+				"s_akk_sum_h_up" : 1819,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.815541, 59.988984999536775, 194 ]
+			},
+			"properties" : {
+				"latti" : 59.988984999536775,
+				"longi" : 8.815541,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "0",
+				"dist_to_go" : "42.2",
+				"climb_to_go" : "1819",
+				"run_segment_count" : "1",
+				"s_sum_h_up" : "21",
+				"s_akk_sum_h_up" : 0,
+				"r_akk_sum_h_up" : "1819",
+				"bike_segment_count" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1055511274808323, 60.434789426639121 ]
+			},
+			"properties" : {
+				"latti" : 60.434789426639121,
+				"longi" : 7.1055511274808323,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -26,
+				"s_sum_h_down" : "-27",
+				"dist_akk" : "5",
+				"dist_to_go" : "175.6",
+				"climb_to_go" : "3365",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "52",
+				"s_akk_sum_h_up" : 52,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "1"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.1714520950210048, 60.418570090778729 ]
+			},
+			"properties" : {
+				"latti" : 60.418570090778729,
+				"longi" : 7.1714520950210048,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -115,
+				"s_sum_h_down" : "-88",
+				"dist_akk" : "10",
+				"dist_to_go" : "170.6",
+				"climb_to_go" : "3196",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "169",
+				"s_akk_sum_h_up" : 221,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "2"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2299121750525464, 60.423687865710683 ]
+			},
+			"properties" : {
+				"latti" : 60.423687865710683,
+				"longi" : 7.2299121750525464,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -121,
+				"s_sum_h_down" : "-6",
+				"dist_akk" : "15",
+				"dist_to_go" : "165.6",
+				"climb_to_go" : "2819",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "377",
+				"s_akk_sum_h_up" : 597,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "3"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2763969667345041, 60.410960727661283 ]
+			},
+			"properties" : {
+				"latti" : 60.410960727661283,
+				"longi" : 7.2763969667345041,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -137,
+				"s_sum_h_down" : "-16",
+				"dist_akk" : "20",
+				"dist_to_go" : "160.6",
+				"climb_to_go" : "2535",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "284",
+				"s_akk_sum_h_up" : 881,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "4"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.3582288420313571, 60.407877884346576 ]
+			},
+			"properties" : {
+				"latti" : 60.407877884346576,
+				"longi" : 7.3582288420313571,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -168,
+				"s_sum_h_down" : "-31",
+				"dist_akk" : "25",
+				"dist_to_go" : "155.6",
+				"climb_to_go" : "2427",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "108",
+				"s_akk_sum_h_up" : 989,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "5"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4110666153196103, 60.382898035077176 ]
+			},
+			"properties" : {
+				"latti" : 60.382898035077176,
+				"longi" : 7.4110666153196103,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -179,
+				"s_sum_h_down" : "-10",
+				"dist_akk" : "30",
+				"dist_to_go" : "150.6",
+				"climb_to_go" : "2201",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "225",
+				"s_akk_sum_h_up" : 1215,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "6"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4909586836210726, 60.36968683776729 ]
+			},
+			"properties" : {
+				"latti" : 60.36968683776729,
+				"longi" : 7.4909586836210726,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -181,
+				"s_sum_h_down" : "-2",
+				"dist_akk" : "35",
+				"dist_to_go" : "145.6",
+				"climb_to_go" : "2010",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "191",
+				"s_akk_sum_h_up" : 1406,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "7"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.5732435984588884, 60.379790767337624 ]
+			},
+			"properties" : {
+				"latti" : 60.379790767337624,
+				"longi" : 7.5732435984588884,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -218,
+				"s_sum_h_down" : "-38",
+				"dist_akk" : "40",
+				"dist_to_go" : "140.6",
+				"climb_to_go" : "1959",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "52",
+				"s_akk_sum_h_up" : 1458,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "8"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.6372831294141994, 60.409151177139606 ]
+			},
+			"properties" : {
+				"latti" : 60.409151177139606,
+				"longi" : 7.6372831294141994,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -286,
+				"s_sum_h_down" : "-68",
+				"dist_akk" : "45",
+				"dist_to_go" : "135.6",
+				"climb_to_go" : "1932",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "27",
+				"s_akk_sum_h_up" : 1484,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "9"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.7185599222201136, 60.421770795386827 ]
+			},
+			"properties" : {
+				"latti" : 60.421770795386827,
+				"longi" : 7.7185599222201136,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -360,
+				"s_sum_h_down" : "-74",
+				"dist_akk" : "50",
+				"dist_to_go" : "130.6",
+				"climb_to_go" : "1867",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "65",
+				"s_akk_sum_h_up" : 1549,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "10"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.7965696649627771, 60.439455467995977 ]
+			},
+			"properties" : {
+				"latti" : 60.439455467995977,
+				"longi" : 7.7965696649627771,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -417,
+				"s_sum_h_down" : "-58",
+				"dist_akk" : "55",
+				"dist_to_go" : "125.6",
+				"climb_to_go" : "1839",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "29",
+				"s_akk_sum_h_up" : 1578,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "11"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.8155870417159043, 60.471291195969272 ]
+			},
+			"properties" : {
+				"latti" : 60.471291195969272,
+				"longi" : 7.8155870417159043,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -442,
+				"s_sum_h_down" : "-25",
+				"dist_akk" : "60",
+				"dist_to_go" : "120.6",
+				"climb_to_go" : "1818",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "21",
+				"s_akk_sum_h_up" : 1599,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "12"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.8700531128422018, 60.499388580556683 ]
+			},
+			"properties" : {
+				"latti" : 60.499388580556683,
+				"longi" : 7.8700531128422018,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -573,
+				"s_sum_h_down" : "-131",
+				"dist_akk" : "65",
+				"dist_to_go" : "115.6",
+				"climb_to_go" : "1816",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "1",
+				"s_akk_sum_h_up" : 1600,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "13"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.8975793412569217, 60.505478076744907 ]
+			},
+			"properties" : {
+				"latti" : 60.505478076744907,
+				"longi" : 7.8975793412569217,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -624,
+				"s_sum_h_down" : "-51",
+				"dist_akk" : "70",
+				"dist_to_go" : "110.6",
+				"climb_to_go" : "1743",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "73",
+				"s_akk_sum_h_up" : 1673,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "14"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.9765122946739924, 60.504031692912385 ]
+			},
+			"properties" : {
+				"latti" : 60.504031692912385,
+				"longi" : 7.9765122946739924,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -712,
+				"s_sum_h_down" : "-87",
+				"dist_akk" : "75",
+				"dist_to_go" : "105.6",
+				"climb_to_go" : "1720",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "24",
+				"s_akk_sum_h_up" : 1697,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "15"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.057740539009119, 60.493315563863369 ]
+			},
+			"properties" : {
+				"latti" : 60.493315563863369,
+				"longi" : 8.057740539009119,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -782,
+				"s_sum_h_down" : "-70",
+				"dist_akk" : "80",
+				"dist_to_go" : "100.6",
+				"climb_to_go" : "1628",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "92",
+				"s_akk_sum_h_up" : 1789,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "16"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.1192153770782181, 60.519708977167191 ]
+			},
+			"properties" : {
+				"latti" : 60.519708977167191,
+				"longi" : 8.1192153770782181,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -928,
+				"s_sum_h_down" : "-146",
+				"dist_akk" : "85",
+				"dist_to_go" : "95.6",
+				"climb_to_go" : "1608",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "19",
+				"s_akk_sum_h_up" : 1808,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "17"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.2012667445473006, 60.532256185545066 ]
+			},
+			"properties" : {
+				"latti" : 60.532256185545066,
+				"longi" : 8.2012667445473006,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -1049,
+				"s_sum_h_down" : "-121",
+				"dist_akk" : "90",
+				"dist_to_go" : "90.6",
+				"climb_to_go" : "1590",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "18",
+				"s_akk_sum_h_up" : 1826,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "18"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.2293065864143227, 60.510605702553171 ]
+			},
+			"properties" : {
+				"latti" : 60.510605702553171,
+				"longi" : 8.2293065864143227,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -1066,
+				"s_sum_h_down" : "-17",
+				"dist_akk" : "95",
+				"dist_to_go" : "85.6",
+				"climb_to_go" : "1366",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "224",
+				"s_akk_sum_h_up" : 2050,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "19"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.2824980607085621, 60.482254543335834 ]
+			},
+			"properties" : {
+				"latti" : 60.482254543335834,
+				"longi" : 8.2824980607085621,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -1237,
+				"s_sum_h_down" : "-171",
+				"dist_akk" : "100",
+				"dist_to_go" : "80.6",
+				"climb_to_go" : "1335",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "31",
+				"s_akk_sum_h_up" : 2081,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "20"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3600482704944046, 60.46068892520762 ]
+			},
+			"properties" : {
+				"latti" : 60.46068892520762,
+				"longi" : 8.3600482704944046,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -1296,
+				"s_sum_h_down" : "-59",
+				"dist_akk" : "105",
+				"dist_to_go" : "75.6",
+				"climb_to_go" : "1329",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "6",
+				"s_akk_sum_h_up" : 2087,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "21"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.3907397029872222, 60.434491025743505 ]
+			},
+			"properties" : {
+				"latti" : 60.434491025743505,
+				"longi" : 8.3907397029872222,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -1313,
+				"s_sum_h_down" : "-17",
+				"dist_akk" : "110",
+				"dist_to_go" : "70.6",
+				"climb_to_go" : "1061",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "268",
+				"s_akk_sum_h_up" : 2356,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "22"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.4393562297285811, 60.405560062916365 ]
+			},
+			"properties" : {
+				"latti" : 60.405560062916365,
+				"longi" : 8.4393562297285811,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -1553,
+				"s_sum_h_down" : "-240",
+				"dist_akk" : "115",
+				"dist_to_go" : "65.6",
+				"climb_to_go" : "1041",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "20",
+				"s_akk_sum_h_up" : 2375,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "23"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.4871596385982695, 60.3812731212792 ]
+			},
+			"properties" : {
+				"latti" : 60.3812731212792,
+				"longi" : 8.4871596385982695,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -1572,
+				"s_sum_h_down" : "-19",
+				"dist_akk" : "120",
+				"dist_to_go" : "60.6",
+				"climb_to_go" : "840",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "201",
+				"s_akk_sum_h_up" : 2576,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.4964708861007896, 60.33807840461899 ]
+			},
+			"properties" : {
+				"latti" : 60.33807840461899,
+				"longi" : 8.4964708861007896,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -1584,
+				"s_sum_h_down" : "-12",
+				"dist_akk" : "125",
+				"dist_to_go" : "55.6",
+				"climb_to_go" : "736",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "104",
+				"s_akk_sum_h_up" : 2680,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "25"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.5402384923298573, 60.307136300179323 ]
+			},
+			"properties" : {
+				"latti" : 60.307136300179323,
+				"longi" : 8.5402384923298573,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -1921,
+				"s_sum_h_down" : "-337",
+				"dist_akk" : "130",
+				"dist_to_go" : "50.6",
+				"climb_to_go" : "736",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "0",
+				"s_akk_sum_h_up" : 2680,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "26"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.5945284678330491, 60.271991741917788 ]
+			},
+			"properties" : {
+				"latti" : 60.271991741917788,
+				"longi" : 8.5945284678330491,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -2089,
+				"s_sum_h_down" : "-168",
+				"dist_akk" : "135",
+				"dist_to_go" : "45.6",
+				"climb_to_go" : "722",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "14",
+				"s_akk_sum_h_up" : 2694,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "27"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.5925154532968993, 60.245551336330728 ]
+			},
+			"properties" : {
+				"latti" : 60.245551336330728,
+				"longi" : 8.5925154532968993,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -2110,
+				"s_sum_h_down" : "-21",
+				"dist_akk" : "140",
+				"dist_to_go" : "40.6",
+				"climb_to_go" : "421",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "302",
+				"s_akk_sum_h_up" : 2996,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "28"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.5859691077478111, 60.215592378168026 ]
+			},
+			"properties" : {
+				"latti" : 60.215592378168026,
+				"longi" : 8.5859691077478111,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -2133,
+				"s_sum_h_down" : "-24",
+				"dist_akk" : "145",
+				"dist_to_go" : "35.6",
+				"climb_to_go" : "208",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "212",
+				"s_akk_sum_h_up" : 3208,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "29"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.5832321246251375, 60.179573651704622 ]
+			},
+			"properties" : {
+				"latti" : 60.179573651704622,
+				"longi" : 8.5832321246251375,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -2146,
+				"s_sum_h_down" : "-13",
+				"dist_akk" : "150",
+				"dist_to_go" : "30.6",
+				"climb_to_go" : "120",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "88",
+				"s_akk_sum_h_up" : 3296,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "30"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.6317022789419795, 60.146820388011697 ]
+			},
+			"properties" : {
+				"latti" : 60.146820388011697,
+				"longi" : 8.6317022789419795,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -2329,
+				"s_sum_h_down" : "-182",
+				"dist_akk" : "155",
+				"dist_to_go" : "25.6",
+				"climb_to_go" : "96",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "24",
+				"s_akk_sum_h_up" : 3320,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "31"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.6740095979233658, 60.128752171137393 ]
+			},
+			"properties" : {
+				"latti" : 60.128752171137393,
+				"longi" : 8.6740095979233658,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -2645,
+				"s_sum_h_down" : "-316",
+				"dist_akk" : "160",
+				"dist_to_go" : "20.6",
+				"climb_to_go" : "57",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "40",
+				"s_akk_sum_h_up" : 3360,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "32"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.7445757001375171, 60.106132950906208 ]
+			},
+			"properties" : {
+				"latti" : 60.106132950906208,
+				"longi" : 8.7445757001375171,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -2762,
+				"s_sum_h_down" : "-117",
+				"dist_akk" : "165",
+				"dist_to_go" : "15.6",
+				"climb_to_go" : "37",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "19",
+				"s_akk_sum_h_up" : 3379,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "33"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.7785617649534977, 60.067366427033875 ]
+			},
+			"properties" : {
+				"latti" : 60.067366427033875,
+				"longi" : 8.7785617649534977,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -2914,
+				"s_sum_h_down" : "-152",
+				"dist_akk" : "170",
+				"dist_to_go" : "10.6",
+				"climb_to_go" : "29",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "8",
+				"s_akk_sum_h_up" : 3387,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "34"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.8234320954951535, 60.033313142760257 ]
+			},
+			"properties" : {
+				"latti" : 60.033313142760257,
+				"longi" : 8.8234320954951535,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -3070,
+				"s_sum_h_down" : "-156",
+				"dist_akk" : "175",
+				"dist_to_go" : "5.6",
+				"climb_to_go" : "18",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "11",
+				"s_akk_sum_h_up" : 3398,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "35"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.8213916146957576, 59.993082310214213 ]
+			},
+			"properties" : {
+				"latti" : 59.993082310214213,
+				"longi" : 8.8213916146957576,
+				"r_akk_sum_h_down" : "-3225",
+				"s_akk_sum_h_down" : -3211,
+				"s_sum_h_down" : "-141",
+				"dist_akk" : "180",
+				"dist_to_go" : "0",
+				"climb_to_go" : "0",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "18",
+				"s_akk_sum_h_up" : 3416,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "36"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.0675958396082788, 60.468352788017192, 2.949920654296875 ]
+			},
+			"properties" : {
+				"latti" : 60.468352788017192,
+				"longi" : 7.0675958396082788,
+				"r_akk_sum_h_down" : "0",
+				"s_akk_sum_h_down" : 0,
+				"s_sum_h_down" : "0",
+				"dist_akk" : "0",
+				"dist_to_go" : "180.6",
+				"climb_to_go" : "3416",
+				"run_segment_count" : null,
+				"s_sum_h_up" : "52",
+				"s_akk_sum_h_up" : 0,
+				"r_akk_sum_h_up" : "3416",
+				"bike_segment_count" : "1"
+			}
+		}
+	]
+}

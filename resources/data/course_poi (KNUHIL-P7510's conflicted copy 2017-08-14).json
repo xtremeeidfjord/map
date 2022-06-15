@@ -1,0 +1,384 @@
+{
+	"name" : "course",
+	"type" : "FeatureCollection",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.06899, 60.46897 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", Transition zone 1",
+				"name" : "T1",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 20,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "T1",
+				"info" : "Transition zone 1",
+				"keyword_search" : "Transition zone 1",
+				"zoom" : 18,
+				"active" : 1,
+				"filter_search" : "Course (1);Transition zone 1"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.8152528320975794, 59.988813636343103 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", Transition zone 2",
+				"name" : "T2",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 21,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "T2",
+				"info" : "Transition zone 2",
+				"keyword_search" : "Transition zone 2",
+				"zoom" : 18,
+				"active" : 1,
+				"filter_search" : "Course (1);Transition zone 2"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.81538, 59.989 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", at T2",
+				"name" : "Penalty box 1",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 2,
+				"icon_w" : 64,
+				"icon_h" : 64,
+				"title" : "Penalty box 1",
+				"info" : "at T2",
+				"keyword_search" : "Penalty box 1 (at T2)",
+				"zoom" : 18,
+				"active" : 1,
+				"filter_search" : "Course (1);Penalty box 1 (at T2)"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.68965, 59.86997 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", at 32 km",
+				"name" : "Penalty box 2",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 2,
+				"icon_w" : 64,
+				"icon_h" : 64,
+				"title" : "Penalty box 2",
+				"info" : "at 32 km",
+				"keyword_search" : "Penalty box 2 (at 32 km)",
+				"zoom" : 16,
+				"comment" : "BOB sving",
+				"active" : 1,
+				"filter_search" : "Course (1);Penalty box 2 (at 32 km)"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.67803, 59.88191 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", Welcome to Zombie Hill",
+				"name" : "Start Zombie Hill",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 3,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Start Zombie Hill",
+				"info" : "Welcome to Zombie Hill",
+				"keyword_search" : "Welcome to Zombie Hill",
+				"zoom" : 16,
+				"active" : 1,
+				"filter_search" : "Course (1);Welcome to Zombie Hill"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.71392, 59.83434 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", enter mountain",
+				"name" : "Stavsro",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 3,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Stavsro",
+				"info" : "enter mountain",
+				"keyword_search" : "Stavsro (enter mountain)",
+				"zoom" : 14,
+				"active" : 1,
+				"filter_search" : "Course (1);Stavsro (enter mountain)"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.20896, 60.53372 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", at Geilo",
+				"name" : "Right turn",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 3,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Right turn",
+				"info" : "at Geilo",
+				"keyword_search" : "Right turn (at Geilo)",
+				"zoom" : 17,
+				"text_link" : "https://www.visitnorway.no/reisemal/ostlandet/geilo/",
+				"active" : 1,
+				"filter_search" : "Course (1);Right turn (at Geilo)"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.59973, 60.26704 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", at Bjørkjeflåta",
+				"name" : "Right turn",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 3,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Right turn",
+				"info" : "at Bjørkjeflåta",
+				"keyword_search" : "Right turn (at Bjørkjeflåta)",
+				"zoom" : 14,
+				"active" : 1,
+				"filter_search" : "Course (1);Right turn (at Bjørkjeflåta)"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.82828, 59.99552 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", to Austbygde",
+				"name" : "Right turn",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 3,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Right turn",
+				"info" : "to Austbygde",
+				"keyword_search" : "Right turn (to Austbygde)",
+				"zoom" : 16,
+				"active" : 1,
+				"filter_search" : "Course (1);Right turn (to Austbygde)"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.6763, 59.88355 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", to Zoombie hill",
+				"name" : "Left turn",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 3,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Left turn",
+				"info" : "to Zoombie hill",
+				"keyword_search" : "Left turn (to Zoombie hill)",
+				"zoom" : 16,
+				"active" : 1,
+				"filter_search" : "Course (1);Left turn (to Zoombie hill)"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 6.9954, 60.48395 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", Swim start",
+				"name" : "Start",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 17,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Start",
+				"info" : "Swim start",
+				"keyword_search" : "Swim start",
+				"zoom" : 13,
+				"active" : 1,
+				"filter_search" : "Course (1);Swim start"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.6884451637042996, 59.868910541523597 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", First 160 to top. The rest make a left turn for finish at elev. 1000m",
+				"name" : "Cut off 32,5",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 18,
+				"icon_w" : 40,
+				"icon_h" : 40,
+				"title" : "Cut off 32,5",
+				"info" : "First 160 to top. The rest make a left turn for finish at elev. 1000m",
+				"keyword_search" : "Cut off 32,5 (First 160 to top. The rest make a left turn for finish at elev. 1000m)",
+				"zoom" : 17,
+				"comment" : "The cut-oﬀ tIme for the black ﬁnisher T-shirt is 14 hours 30 minutes at the 32.5km mark; and 15 hours 30 minutes at the 37.5km mark. Athletes must pass the medical check to continue.",
+				"active" : 1,
+				"filter_search" : "Course (1);Cut off 32,5 (First 160 to top. The rest make a left turn for finish at elev. 1000m)"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.65589, 59.85053 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", Gaustatoppen (elev. 1883 m)",
+				"name" : "Black Finish",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 22,
+				"icon_w" : 64,
+				"icon_h" : 64,
+				"title" : "Black Finish",
+				"info" : "Gaustatoppen (elev. 1883 m)",
+				"keyword_search" : "Black Finish (Gaustatoppen (elev. 1883 m))",
+				"zoom" : 13,
+				"active" : 1,
+				"filter_search" : "Course (1);Black Finish (Gaustatoppen (elev. 1883 m))"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.73486, 59.88 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", Gaustablikk (elev. 1000)",
+				"name" : "White Finish",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 22,
+				"icon_w" : 64,
+				"icon_h" : 64,
+				"title" : "White Finish",
+				"info" : "Gaustablikk (elev. 1000)",
+				"keyword_search" : "White Finish (Gaustablikk (elev. 1000))",
+				"zoom" : 17,
+				"active" : 1,
+				"filter_search" : "Course (1);White Finish (Gaustablikk (elev. 1000))"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.7366663623189904, 59.880939837815603 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", 10 x 600 m",
+				"name" : "White Finish Loop",
+				"picture_link" : " ",
+				"type" : 1,
+				"icon_group" : 1,
+				"icon_subgroup" : 24,
+				"icon_w" : 75,
+				"icon_h" : 75,
+				"title" : "White Finish Loop",
+				"info" : "10 x 600 m",
+				"keyword_search" : "White Finish Loop (10 x 600 m)",
+				"zoom" : 17,
+				"active" : 1,
+				"filter_search" : "Course (1);White Finish Loop (10 x 600 m)"
+			}
+		}
+	]
+}

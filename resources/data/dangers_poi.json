@@ -1,0 +1,60 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "danger",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.20797, 60.42308 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", Athletes will ride through this tunnel, keep right",
+				"name" : "Måbøtunnelen",
+				"picture_link" : "<img src=\"/resources/pictures/poi_69_-_maaboetunnelen.jpg\" alt=\"no picture\" height=\"425\" width=\"566\">",
+				"type" : "4",
+				"icon_group" : 4,
+				"icon_subgroup" : 7,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Måbøtunnelen",
+				"info" : "Athletes will ride through this tunnel, keep right",
+				"keyword_search" : "Måbøtunnelen (Athletes will ride through this tunnel, keep right)",
+				"zoom" : 14,
+				"picture_w" : 566,
+				"picture_h" : 425,
+				"active" : 1,
+				"filter_search" : "Dangers (4);Måbøtunnelen (Athletes will ride through this tunnel, keep right)",
+				"icon_r" : 0
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.61362, 60.15442 ]
+			},
+			"properties" : {
+				"latti" : 60.46651,
+				"longi" : 7.0687,
+				"info_hover" : ", Dangerous road segment",
+				"name" : "Tessungdalen",
+				"picture_link" : " ",
+				"type" : "4",
+				"icon_group" : 4,
+				"icon_subgroup" : 7,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Tessungdalen",
+				"info" : "Dangerous road segment",
+				"keyword_search" : "Tessungdalen (Dangerous road segment)",
+				"zoom" : 14,
+				"active" : 1,
+				"filter_search" : "Dangers (4);Tessungdalen (Dangerous road segment)",
+				"icon_r" : 0
+			}
+		}
+	]
+}

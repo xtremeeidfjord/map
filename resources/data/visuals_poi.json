@@ -1,0 +1,1591 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "visuals",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.68846, 59.86875 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag 32.5km",
+				"info_hover" : ", Beachflag 32.5km",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 62,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Beachflag 32.5km",
+				"pos_north" : 59.86875,
+				"pos_east" : 8.68846,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag 32.5km",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.68883, 59.86877 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Banner 32.5km",
+				"info_hover" : ", Banner 32.5km",
+				"name" : "Banner",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 63,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 31,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Banner",
+				"info" : "Banner 32.5km",
+				"pos_north" : 59.86877,
+				"pos_east" : 8.68883,
+				"zoom" : 16,
+				"keyword_search" : "Banner 32.5km",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.68862, 59.869 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag tre stk 32.5km",
+				"info_hover" : ", Beachflag tre stk 32.5km",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 65,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Beachflag tre stk 32.5km",
+				"pos_north" : 59.869,
+				"pos_east" : 8.68862,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag tre stk 32.5km",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.70245, 59.8776 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag 4 stk",
+				"info_hover" : ", Beachflag 4 stk",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 66,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Beachflag 4 stk",
+				"pos_north" : 59.8776,
+				"pos_east" : 8.70245,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag 4 stk",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.6794, 59.8818 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag 2 stk - Zombie hill",
+				"info_hover" : ", Beachflag 2 stk - Zombie hill",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 67,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Beachflag 2 stk - Zombie hill",
+				"pos_north" : 59.8818,
+				"pos_east" : 8.6794,
+				"keyword_search" : "Beachflag 2 stk - Zombie hill",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.676, 59.8821 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag 4 stk",
+				"info_hover" : ", Beachflag 4 stk",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 68,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Beachflag 4 stk",
+				"pos_north" : 59.8821,
+				"pos_east" : 8.676,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag 4 stk",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.67522, 59.88233 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Isklar flaske to stk - Zombie hill",
+				"info_hover" : ", Isklar flaske to stk - Zombie hill",
+				"name" : "Isklar flaske",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 69,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 37,
+				"icon_w" : 64,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Isklar flaske",
+				"info" : "Isklar flaske to stk - Zombie hill",
+				"pos_north" : 59.88233,
+				"pos_east" : 8.67522,
+				"zoom" : 17,
+				"keyword_search" : "Isklar flaske to stk - Zombie hill",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.7038, 59.8872 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag 4 stk",
+				"info_hover" : ", Beachflag 4 stk",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 71,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Beachflag 4 stk",
+				"pos_north" : 59.8872,
+				"pos_east" : 8.7038,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag 4 stk",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.70016, 59.88867 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Isklar flaske  4 stk",
+				"info_hover" : ", Isklar flaske  4 stk",
+				"name" : "Isklar flaske",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 72,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 37,
+				"icon_w" : 64,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Isklar flaske",
+				"info" : "Isklar flaske  4 stk",
+				"pos_north" : 59.88867,
+				"pos_east" : 8.70016,
+				"zoom" : 17,
+				"keyword_search" : "Isklar flaske  4 stk",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.60275, 60.16509 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag (End support)",
+				"info_hover" : ", End support",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 81,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "End support",
+				"pos_north" : 60.16509,
+				"pos_east" : 8.60275,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag (End support)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.60304, 60.16518 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag (End support)",
+				"info_hover" : ", End support",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 82,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "End support",
+				"pos_north" : 60.16518,
+				"pos_east" : 8.60304,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag (End support)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.58681, 60.23565 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag Imingfjell 5 stk",
+				"info_hover" : ", Beachflag Imingfjell 5 stk",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 83,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Beachflag Imingfjell 5 stk",
+				"pos_north" : 60.23565,
+				"pos_east" : 8.58681,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag Imingfjell 5 stk",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.58698, 60.23722 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Sving før topp Imingfjell 5 stk",
+				"info_hover" : ", Sving før topp Imingfjell 5 stk",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 84,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Sving før topp Imingfjell 5 stk",
+				"pos_north" : 60.23722,
+				"pos_east" : 8.58698,
+				"zoom" : 16,
+				"keyword_search" : "Sving før topp Imingfjell 5 stk",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.60207, 60.26547 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Infoskilt (Stort skilt om Norseman pågår x aug)",
+				"info_hover" : ", Stort skilt om Norseman pågår x aug",
+				"name" : "Infoskilt",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 85,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 28,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Infoskilt",
+				"info" : "Stort skilt om Norseman pågår x aug",
+				"pos_north" : 60.26547,
+				"pos_east" : 8.60207,
+				"zoom" : 16,
+				"keyword_search" : "Infoskilt (Stort skilt om Norseman pågår x aug)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.50305, 60.3681 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag 6 stk",
+				"info_hover" : ", Beachflag 6 stk",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 90,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Beachflag 6 stk",
+				"pos_north" : 60.3681,
+				"pos_east" : 7.50305,
+				"zoom" : 18,
+				"keyword_search" : "Beachflag 6 stk",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.28121, 60.41145 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag (Start support)",
+				"info_hover" : ", Start support",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 96,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Start support",
+				"pos_north" : 60.41145,
+				"pos_east" : 7.28121,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag (Start support)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.28113, 60.41165 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag (Start support)",
+				"info_hover" : ", Start support",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 97,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Start support",
+				"pos_north" : 60.41165,
+				"pos_east" : 7.28113,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag (Start support)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.68463, 60.418088 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt løp pågår Halne - fra øst",
+				"info_hover" : ", Veiskilt løp pågår Halne - fra øst",
+				"name" : "Veiskilt løp pågår",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 98,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 85,
+				"title" : "Veiskilt løp pågår",
+				"info" : "Veiskilt løp pågår Halne - fra øst",
+				"pos_north" : 60.418088,
+				"pos_east" : 7.68463,
+				"zoom" : 16,
+				"keyword_search" : "Veiskilt løp pågår Halne - fra øst",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.68305, 60.417926 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt løp pågår Halne - fra vest",
+				"info_hover" : ", Veiskilt løp pågår Halne - fra vest",
+				"name" : "Veiskilt løp pågår",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 99,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 270,
+				"title" : "Veiskilt løp pågår",
+				"info" : "Veiskilt løp pågår Halne - fra vest",
+				"pos_north" : 60.417926,
+				"pos_east" : 7.68305,
+				"zoom" : 16,
+				"keyword_search" : "Veiskilt løp pågår Halne - fra vest",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.206324, 60.42224 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt manuell dirigering (Inngang Måbøtunell - fra vest)",
+				"info_hover" : ", Inngang Måbøtunell - fra vest",
+				"name" : "Veiskilt manuell dirigering",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 100,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 39,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 147,
+				"title" : "Veiskilt manuell dirigering",
+				"info" : "Inngang Måbøtunell - fra vest",
+				"pos_north" : 60.42224,
+				"pos_east" : 7.206324,
+				"zoom" : 16,
+				"keyword_search" : "Veiskilt manuell dirigering (Inngang Måbøtunell - fra vest)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.116621, 60.424683 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt manuell dirigering (Øvre  Eidfjord utgang tunell)",
+				"info_hover" : ", Øvre  Eidfjord utgang tunell",
+				"name" : "Veiskilt manuell dirigering",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 106,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 39,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 100,
+				"title" : "Veiskilt manuell dirigering",
+				"info" : "Øvre  Eidfjord utgang tunell",
+				"pos_north" : 60.424683,
+				"pos_east" : 7.116621,
+				"zoom" : 16,
+				"keyword_search" : "Veiskilt manuell dirigering (Øvre  Eidfjord utgang tunell)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.233237, 60.4249 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt manuell dirigering (Utgang Måbøtunell - fra øst)",
+				"info_hover" : ", Utgang Måbøtunell - fra øst",
+				"name" : "Veiskilt manuell dirigering",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 108,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 39,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 63,
+				"title" : "Veiskilt manuell dirigering",
+				"info" : "Utgang Måbøtunell - fra øst",
+				"pos_north" : 60.4249,
+				"pos_east" : 7.233237,
+				"zoom" : 16,
+				"keyword_search" : "Veiskilt manuell dirigering (Utgang Måbøtunell - fra øst)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2465, 60.42512 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag (Fossatromma)",
+				"info_hover" : ", Fossatromma",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 109,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Fossatromma",
+				"pos_north" : 60.42512,
+				"pos_east" : 7.2465,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag (Fossatromma)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.24669, 60.42517 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag (Fossatromma)",
+				"info_hover" : ", Fossatromma",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 110,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Fossatromma",
+				"pos_north" : 60.42517,
+				"pos_east" : 7.24669,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag (Fossatromma)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.24589, 60.42536 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag Vøringsfossen",
+				"info_hover" : ", Beachflag Vøringsfossen",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 111,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Beachflag Vøringsfossen",
+				"pos_north" : 60.42536,
+				"pos_east" : 7.24589,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag Vøringsfossen",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.10677, 60.44341 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt manuell dirigering (Øvre Eidfjord inngang tunell)",
+				"info_hover" : ", Øvre Eidfjord inngang tunell",
+				"name" : "Veiskilt manuell dirigering",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 117,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 39,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 330,
+				"title" : "Veiskilt manuell dirigering",
+				"info" : "Øvre Eidfjord inngang tunell",
+				"pos_north" : 60.44341,
+				"pos_east" : 7.10677,
+				"zoom" : 16,
+				"keyword_search" : "Veiskilt manuell dirigering (Øvre Eidfjord inngang tunell)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.0838, 60.45724 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt løp pågår Eidfjord",
+				"info_hover" : ", Veiskilt løp pågår Eidfjord",
+				"name" : "Veiskilt løp pågår",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 118,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 280,
+				"title" : "Veiskilt løp pågår",
+				"info" : "Veiskilt løp pågår Eidfjord",
+				"pos_north" : 60.45724,
+				"pos_east" : 7.0838,
+				"zoom" : 16,
+				"keyword_search" : "Veiskilt løp pågår Eidfjord",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.06233, 60.46448 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Infoskilt (Stort skilt om Norseman pågår x aug)",
+				"info_hover" : ", Stort skilt om Norseman pågår x aug",
+				"name" : "Infoskilt",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 119,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 28,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Infoskilt",
+				"info" : "Stort skilt om Norseman pågår x aug",
+				"pos_north" : 60.46448,
+				"pos_east" : 7.06233,
+				"zoom" : 16,
+				"keyword_search" : "Infoskilt (Stort skilt om Norseman pågår x aug)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.05656, 60.46463 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag (Kyskredo)",
+				"info_hover" : ", Kyskredo",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 120,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Kyskredo",
+				"pos_north" : 60.46463,
+				"pos_east" : 7.05656,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag (Kyskredo)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.05674, 60.46468 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag (Kyskredo)",
+				"info_hover" : ", Kyskredo",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 121,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Kyskredo",
+				"pos_north" : 60.46468,
+				"pos_east" : 7.05674,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag (Kyskredo)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.07219, 60.46516 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Banner (gangbro Eidfjord)",
+				"info_hover" : ", Banner gangbro Eidfjord",
+				"name" : "Banner",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 122,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 31,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Banner",
+				"info" : "Banner gangbro Eidfjord",
+				"pos_north" : 60.46516,
+				"pos_east" : 7.07219,
+				"zoom" : 16,
+				"keyword_search" : "Banner (gangbro Eidfjord)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.06923, 60.46672 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag to sth (sentrum Eidfjord)",
+				"info_hover" : ", Beachflag sentrum Eidfjord to stk",
+				"name" : "Beachflag",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 126,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag",
+				"info" : "Beachflag sentrum Eidfjord to stk",
+				"pos_north" : 60.46672,
+				"pos_east" : 7.06923,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag to sth (sentrum Eidfjord)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.06818, 60.46732 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Beachflag 10 stk (Hotell Vøringsfoss)",
+				"info_hover" : ", Beachflag Hotell Vøringsfoss 10 stk",
+				"name" : "Beachflag ",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 131,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 30,
+				"icon_w" : 50,
+				"icon_h" : 25,
+				"icon_r" : 0,
+				"title" : "Beachflag ",
+				"info" : "Beachflag Hotell Vøringsfoss 10 stk",
+				"pos_north" : 60.46732,
+				"pos_east" : 7.06818,
+				"zoom" : 16,
+				"keyword_search" : "Beachflag 10 stk (Hotell Vøringsfoss)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.598061, 60.267775 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Info, pil høyre - fra vest (Bjørkjeflåta)",
+				"info_hover" : " ",
+				"name" : "Info, pil høyre - fra vest (Bjørkjeflåta)",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 137,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 42,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 145,
+				"title" : "Info, pil høyre - fra vest (Bjørkjeflåta)",
+				"pos_north" : 60.267775,
+				"pos_east" : 8.598061,
+				"zoom" : 16,
+				"keyword_search" : "Info, pil høyre - fra vest (Bjørkjeflåta)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.22038, 60.52921 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt løp pågår Geilo - fra sør",
+				"info_hover" : ", Veiskilt løp pågår Geilo - fra sør",
+				"name" : "Veiskilt løp pågår",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 139,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 255,
+				"title" : "Veiskilt løp pågår",
+				"info" : "Veiskilt løp pågår Geilo - fra sør",
+				"pos_north" : 60.52921,
+				"pos_east" : 8.22038,
+				"zoom" : 16,
+				"keyword_search" : "Veiskilt løp pågår Geilo - fra sør",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.19652, 60.53153 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt løp pågår Geilo - fra øst",
+				"info_hover" : ", Veiskilt løp pågår Geilo - fra øst",
+				"name" : "Veiskilt løp pågår",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 140,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 65,
+				"title" : "Veiskilt løp pågår",
+				"info" : "Veiskilt løp pågår Geilo - fra øst",
+				"pos_north" : 60.53153,
+				"pos_east" : 8.19652,
+				"zoom" : 16,
+				"keyword_search" : "Veiskilt løp pågår Geilo - fra øst",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.208188, 60.533562 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Info, pil høyre - fra vest (Geilo)",
+				"info_hover" : " ",
+				"name" : "Info, pil høyre - fra vest (Geilo)",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 141,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 42,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 60,
+				"title" : "Info, pil høyre - fra vest (Geilo)",
+				"pos_north" : 60.533562,
+				"pos_east" : 8.208188,
+				"zoom" : 16,
+				"keyword_search" : "Info, pil høyre - fra vest (Geilo)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.21124, 60.53446 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Infoskilt (Stort skilt om Norseman pågår x aug)",
+				"info_hover" : ", Stort skilt om Norseman pågår x aug",
+				"name" : "Infoskilt",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 144,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 28,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Infoskilt",
+				"info" : "Stort skilt om Norseman pågår x aug",
+				"pos_north" : 60.53446,
+				"pos_east" : 8.21124,
+				"zoom" : 16,
+				"keyword_search" : "Infoskilt (Stort skilt om Norseman pågår x aug)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.194395, 60.416985 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Vegskilt m underskilt kryssende syklister - fra vest",
+				"info_hover" : " ",
+				"name" : "Vegskilt m underskilt kryssende syklister - fra vest",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 147,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 255,
+				"title" : "Vegskilt m underskilt kryssende syklister - fra vest",
+				"pos_north" : 60.416985,
+				"pos_east" : 7.194395,
+				"zoom" : 16,
+				"keyword_search" : "Vegskilt m underskilt kryssende syklister - fra vest",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.196054, 60.418253 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Vegskilt m underskilt kryssende syklister - fra øst",
+				"info_hover" : " ",
+				"name" : "Vegskilt m underskilt kryssende syklister - fra øst",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 148,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 60,
+				"title" : "Vegskilt m underskilt kryssende syklister - fra øst",
+				"pos_north" : 60.418253,
+				"pos_east" : 7.196054,
+				"zoom" : 16,
+				"keyword_search" : "Vegskilt m underskilt kryssende syklister - fra øst",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.245559, 60.425532 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Vegskilt m underskilt kryssende syklister - fra vest",
+				"info_hover" : " ",
+				"name" : "Vegskilt m underskilt kryssende syklister - fra vest",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 149,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 320,
+				"title" : "Vegskilt m underskilt kryssende syklister - fra vest",
+				"pos_north" : 60.425532,
+				"pos_east" : 7.245559,
+				"zoom" : 16,
+				"keyword_search" : "Vegskilt m underskilt kryssende syklister - fra vest",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.247202, 60.424848 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Vegskilt m underskilt kryssende syklister - fra øst",
+				"info_hover" : " ",
+				"name" : "Vegskilt m underskilt kryssende syklister - fra øst",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 150,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 150,
+				"title" : "Vegskilt m underskilt kryssende syklister - fra øst",
+				"pos_north" : 60.424848,
+				"pos_east" : 7.247202,
+				"zoom" : 16,
+				"keyword_search" : "Vegskilt m underskilt kryssende syklister - fra øst",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.106841, 60.443101 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Vegskilt m underskilt kryssende syklister - fra vest",
+				"info_hover" : " ",
+				"name" : "Vegskilt m underskilt kryssende syklister - fra vest",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 151,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 0,
+				"title" : "Vegskilt m underskilt kryssende syklister - fra vest",
+				"pos_north" : 60.443101,
+				"pos_east" : 7.106841,
+				"zoom" : 16,
+				"keyword_search" : "Vegskilt m underskilt kryssende syklister - fra vest",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.23252, 60.424626 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Vegskilt m underskilt kryssende syklister - fra øst",
+				"info_hover" : " ",
+				"name" : "Vegskilt m underskilt kryssende syklister - fra øst",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 152,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 63,
+				"title" : "Vegskilt m underskilt kryssende syklister - fra øst",
+				"pos_north" : 60.424626,
+				"pos_east" : 7.23252,
+				"zoom" : 16,
+				"keyword_search" : "Vegskilt m underskilt kryssende syklister - fra øst",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.601086, 60.26601 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt løp pågår Bjørkeflåta - fra øst",
+				"info_hover" : " ",
+				"name" : "Veiskilt løp pågår Bjørkeflåta - fra øst",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 153,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 150,
+				"title" : "Veiskilt løp pågår Bjørkeflåta - fra øst",
+				"pos_north" : 60.26601,
+				"pos_east" : 8.601086,
+				"zoom" : 16,
+				"keyword_search" : "Veiskilt løp pågår Bjørkeflåta - fra øst",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.8282, 59.995733 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Info, pil høyre - fra nord (Austbygde)",
+				"info_hover" : " ",
+				"name" : "Info, pil høyre - fra nord (Austbygde)",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 154,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 42,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 180,
+				"title" : "Info, pil høyre - fra nord (Austbygde)",
+				"pos_north" : 59.995733,
+				"pos_east" : 8.8282,
+				"zoom" : 16,
+				"keyword_search" : "Info, pil høyre - fra nord (Austbygde)",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.828943, 59.995376 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Stort skilt om Norseman pågår x aug - fra sør-øst",
+				"info_hover" : " ",
+				"name" : "Stort skilt om Norseman pågår x aug - fra sør-øst",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 155,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 28,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Stort skilt om Norseman pågår x aug - fra sør-øst",
+				"pos_north" : 59.995376,
+				"pos_east" : 8.828943,
+				"zoom" : 16,
+				"keyword_search" : "Stort skilt om Norseman pågår x aug - fra sør-øst",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.828638, 59.995476 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt løp pågår Austbygde - fra øst",
+				"info_hover" : " ",
+				"name" : "Veiskilt løp pågår Austbygde - fra øst",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 156,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 110,
+				"title" : "Veiskilt løp pågår Austbygde - fra øst",
+				"pos_north" : 59.995476,
+				"pos_east" : 8.828638,
+				"zoom" : 16,
+				"keyword_search" : "Veiskilt løp pågår Austbygde - fra øst",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.794735, 59.92665 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Stort skilt om Norseman pågår x aug - fra sør",
+				"info_hover" : " ",
+				"name" : "Stort skilt om Norseman pågår x aug - fra sør",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 157,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 28,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Stort skilt om Norseman pågår x aug - fra sør",
+				"pos_north" : 59.92665,
+				"pos_east" : 8.794735,
+				"zoom" : 16,
+				"keyword_search" : "Stort skilt om Norseman pågår x aug - fra sør",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.79226, 59.92636 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt løp pågår Miland - fra øst",
+				"info_hover" : " ",
+				"name" : "Veiskilt løp pågår Miland - fra øst",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 158,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 45,
+				"title" : "Veiskilt løp pågår Miland - fra øst",
+				"pos_north" : 59.92636,
+				"pos_east" : 8.79226,
+				"zoom" : 16,
+				"keyword_search" : "Veiskilt løp pågår Miland - fra øst",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.674559, 59.883287 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt løp pågår Dale - fra vest",
+				"info_hover" : " ",
+				"name" : "Veiskilt løp pågår Dale - fra vest",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 159,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 250,
+				"title" : "Veiskilt løp pågår Dale - fra vest",
+				"pos_north" : 59.883287,
+				"pos_east" : 8.674559,
+				"zoom" : 16,
+				"keyword_search" : "Veiskilt løp pågår Dale - fra vest",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.713856, 59.833944 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt løp pågår Stavsro - fra sør",
+				"info_hover" : " ",
+				"name" : "Veiskilt løp pågår Stavsro - fra sør",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 164,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 205,
+				"title" : "Veiskilt løp pågår Stavsro - fra sør",
+				"pos_north" : 59.833944,
+				"pos_east" : 8.713856,
+				"zoom" : 18,
+				"keyword_search" : "Veiskilt løp pågår Stavsro - fra sør",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.115901, 60.424795 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Vegskilt m underskilt kryssende syklister - fra vest",
+				"info_hover" : " ",
+				"name" : "Vegskilt m underskilt kryssende syklister - fra vest",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 166,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 100,
+				"title" : "Vegskilt m underskilt kryssende syklister - fra vest",
+				"pos_north" : 60.424795,
+				"pos_east" : 7.115901,
+				"zoom" : 16,
+				"keyword_search" : "Vegskilt m underskilt kryssende syklister - fra vest",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.37046, 60.45895 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt løp pågår Skurdalen - fra øst",
+				"info_hover" : " ",
+				"name" : "Veiskilt løp pågår Skurdalen - fra øst",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 183,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 110,
+				"title" : "Veiskilt løp pågår Skurdalen - fra øst",
+				"pos_north" : 60.45895,
+				"pos_east" : 8.37046,
+				"zoom" : 18,
+				"keyword_search" : "Veiskilt løp pågår Skurdalen - fra øst",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.37093, 60.45804 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Veiskilt løp pågår Skurdalen - fra nord",
+				"info_hover" : " ",
+				"name" : "Veiskilt løp pågår Skurdalen - fra nord",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 184,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 29,
+				"icon_w" : 54,
+				"icon_h" : 54,
+				"icon_r" : 0,
+				"title" : "Veiskilt løp pågår Skurdalen - fra nord",
+				"pos_north" : 60.45804,
+				"pos_east" : 8.37093,
+				"zoom" : 18,
+				"keyword_search" : "Veiskilt løp pågår Skurdalen - fra nord",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.739275, 59.92205 ]
+			},
+			"properties" : {
+				"filter_search" : "Visuals (10);Isklar (sikt mot Gaustatoppen)",
+				"info_hover" : ", Isklar (sikt mot Gaustatoppen)",
+				"name" : "Isklar (sikt mot Gaustatoppen)",
+				"picture_link" : " ",
+				"icon_group" : 10,
+				"type" : "10",
+				"id" : 185,
+				"group" : "Visuals (10)",
+				"icon_subgroup" : 37,
+				"icon_w" : 64,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Isklar (sikt mot Gaustatoppen)",
+				"info" : "Isklar (sikt mot Gaustatoppen)",
+				"pos_north" : 59.92205,
+				"pos_east" : 8.739275,
+				"zoom" : 17,
+				"keyword_search" : "Isklar (sikt mot Gaustatoppen)",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		}
+	]
+}

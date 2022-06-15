@@ -1,0 +1,22 @@
+{
+	"name" : "3d",
+	"type" : "FeatureCollection",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.69974, 59.89686 ]
+			},
+			"properties" : {
+				"info_hover" : " ",
+				"name" : "Black and white finish",
+				"picture_link" : "'<img src=\"\" alt=\" \">'",
+				"type" : "6",
+				"title" : "Black and white finish",
+				"text_link" : "/3d/Gaustatoppen_3d_medium.html",
+				"active" : 1
+			}
+		}
+	]
+}

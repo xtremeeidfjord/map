@@ -1,0 +1,616 @@
+{
+	"name" : "support",
+	"type" : "FeatureCollection",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.50297, 60.36802 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Coffe breaks (Dyranut)",
+				"info_hover" : ", Dyranut",
+				"name" : "Coffe breaks",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 5,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Coffe breaks",
+				"info" : "Dyranut",
+				"keyword_search" : "Coffe breaks (Dyranut)",
+				"zoom" : 14,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.20916, 60.5342 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Coffe breaks (Geilo, Perleporten)",
+				"info_hover" : ", Geilo, Perleporten",
+				"name" : "Coffe breaks",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 5,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Coffe breaks",
+				"info" : "Geilo, Perleporten",
+				"keyword_search" : "Coffe breaks (Geilo, Perleporten)",
+				"zoom" : 17,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.20716, 60.53422 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Coffe breaks (Geilo, Cafe Mocca)",
+				"info_hover" : ", Geilo, Cafe Mocca",
+				"name" : "Coffe breaks",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 5,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Coffe breaks",
+				"info" : "Geilo, Cafe Mocca",
+				"keyword_search" : "Coffe breaks (Geilo, Cafe Mocca)",
+				"zoom" : 17,
+				"text_link" : "https://www.visitnorway.no/reisemal/ostlandet/geilo/",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.6857, 60.41835 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Coffe breaks (Halne Fjellstue)",
+				"info_hover" : ", Halne Fjellstue",
+				"name" : "Coffe breaks",
+				"picture_link" : "<img src=\"http://map.nxtri.com/resources/pictures/poi_28_-_halne.jpg\" alt=\"no picture\" height=\"425\" width=\"566\">",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 5,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Coffe breaks",
+				"info" : "Halne Fjellstue",
+				"keyword_search" : "Coffe breaks (Halne Fjellstue)",
+				"zoom" : 16,
+				"picture_w" : 566,
+				"picture_h" : 425,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.78551, 60.43941 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Coffe breaks (Fagerheim Fjellstue)",
+				"info_hover" : ", Fagerheim Fjellstue",
+				"name" : "Coffe breaks",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 5,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Coffe breaks",
+				"info" : "Fagerheim Fjellstue",
+				"keyword_search" : "Coffe breaks (Fagerheim Fjellstue)",
+				"zoom" : 16,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.85286, 60.51234 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Coffe breaks (Haugastøl)",
+				"info_hover" : ", Haugastøl",
+				"name" : "Coffe breaks",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 5,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Coffe breaks",
+				"info" : "Haugastøl",
+				"keyword_search" : "Coffe breaks (Haugastøl)",
+				"zoom" : 16,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.58529, 60.2339 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Coffe breaks (Imingfjell)",
+				"info_hover" : ", Imingfjell",
+				"name" : "Coffe breaks",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 5,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Coffe breaks",
+				"info" : "Imingfjell",
+				"keyword_search" : "Coffe breaks (Imingfjell)",
+				"zoom" : 17,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.82822, 59.99522 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Coffe breaks (Austbygde)",
+				"info_hover" : ", Austbygde",
+				"name" : "Coffe breaks",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 5,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Coffe breaks",
+				"info" : "Austbygde",
+				"keyword_search" : "Coffe breaks (Austbygde)",
+				"zoom" : 16,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.689949, 59.868865 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Norseman Support and Crew parking",
+				"info_hover" : ", Parking in blue areas for accredited cars only",
+				"name" : "Norseman Support and Crew parking",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 6,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Norseman Support and Crew parking",
+				"info" : "Parking in blue areas for accredited cars only",
+				"keyword_search" : "Norseman Support and Crew parking",
+				"zoom" : 16,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.24632, 60.4257 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Begin support (Vøringsfossen)",
+				"info_hover" : ", Vøringsfossen",
+				"name" : "Begin support",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 11,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Begin support",
+				"info" : "Vøringsfossen",
+				"keyword_search" : "Begin support (Vøringsfossen)",
+				"zoom" : 14,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.60327, 60.16471 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);End support (Imingfjell, approx. 152k.)",
+				"info_hover" : ", Imingfjell, approx. 152k.",
+				"name" : "End support",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 12,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "End support",
+				"info" : "Imingfjell, approx. 152k.",
+				"keyword_search" : "End support (Imingfjell, approx. 152k.)",
+				"zoom" : 14,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.20806, 60.53413 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Bike parts (Geilo)",
+				"info_hover" : ", Geilo",
+				"name" : "Bike parts",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 13,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Bike parts",
+				"info" : "Geilo",
+				"keyword_search" : "Bike parts (Geilo)",
+				"zoom" : 17,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.59396, 59.8793 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Bike parts (Rjukan)",
+				"info_hover" : ", Rjukan",
+				"name" : "Bike parts",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 13,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Bike parts",
+				"info" : "Rjukan",
+				"keyword_search" : "Bike parts (Rjukan)",
+				"zoom" : 14,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.06771, 60.46681 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Groceries (Eidfjord 1)",
+				"info_hover" : ", Eidfjord 1",
+				"name" : "Groceries",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 14,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Groceries",
+				"info" : "Eidfjord 1",
+				"keyword_search" : "Groceries (Eidfjord 1)",
+				"zoom" : 16,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.0692, 60.46618 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Groceries (Eidfjord 2)",
+				"info_hover" : ", Eidfjord 2",
+				"name" : "Groceries",
+				"picture_link" : "<img src=\"http://map.nxtri.com/resources/pictures/poi_44_-_eidfjord_2.jpg\" alt=\"no picture\" height=\"425\" width=\"566\">",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 14,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Groceries",
+				"info" : "Eidfjord 2",
+				"keyword_search" : "Groceries (Eidfjord 2)",
+				"zoom" : 16,
+				"picture_w" : 566,
+				"picture_h" : 425,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.04206, 60.49877 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Groceries (Ustaoset)",
+				"info_hover" : ", Ustaoset",
+				"name" : "Groceries",
+				"picture_link" : "<img src=\"http://map.nxtri.com/resources/pictures/poi_45_-_ustaoset.jpg\" alt=\"no picture\" height=\"425\" width=\"566\">",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 14,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Groceries",
+				"info" : "Ustaoset",
+				"keyword_search" : "Groceries (Ustaoset)",
+				"zoom" : 14,
+				"picture_w" : 566,
+				"picture_h" : 425,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.20805, 60.53385 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Groceries, Rema 1000 (Geilo 1)",
+				"info_hover" : ", Geilo 1",
+				"name" : "Groceries, Rema 1000",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 14,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Groceries, Rema 1000",
+				"info" : "Geilo 1",
+				"keyword_search" : "Groceries, Rema 1000 (Geilo 1)",
+				"zoom" : 17,
+				"text_link" : "https://www.visitnorway.no/reisemal/ostlandet/geilo/",
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.20946, 60.53424 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Groceries, Kiwi (Geilo 2)",
+				"info_hover" : ", Geilo 2",
+				"name" : "Groceries, Kiwi",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 14,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Groceries, Kiwi",
+				"info" : "Geilo 2",
+				"keyword_search" : "Groceries, Kiwi (Geilo 2)",
+				"zoom" : 17,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.20945, 60.53476 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Groceries, Spar (Geilo 3)",
+				"info_hover" : ", Geilo 3",
+				"name" : "Groceries, Spar",
+				"picture_link" : "<img src=\"http://map.nxtri.com/resources/pictures/poi_59_-_spar_geilo.jpg\" alt=\"no picture\" height=\"425\" width=\"566\">",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 14,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Groceries, Spar",
+				"info" : "Geilo 3",
+				"keyword_search" : "Groceries, Spar (Geilo 3)",
+				"zoom" : 17,
+				"picture_w" : 566,
+				"picture_h" : 425,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.20937, 60.52869 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Groceries, Spar (Geilo 4)",
+				"info_hover" : ", Geilo 4",
+				"name" : "Groceries, Spar",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 14,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Groceries, Spar",
+				"info" : "Geilo 4",
+				"keyword_search" : "Groceries, Spar (Geilo 4)",
+				"zoom" : 17,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.44113, 60.41106 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Groceries (Dagali)",
+				"info_hover" : ", Dagali",
+				"name" : "Groceries",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 14,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Groceries",
+				"info" : "Dagali",
+				"keyword_search" : "Groceries (Dagali)",
+				"zoom" : 14,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.59856, 60.26714 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Groceries (Bjørkjeflåta)",
+				"info_hover" : ", Bjørkjeflåta",
+				"name" : "Groceries",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 14,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Groceries",
+				"info" : "Bjørkjeflåta",
+				"keyword_search" : "Groceries (Bjørkjeflåta)",
+				"zoom" : 14,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.82675, 59.99508 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Groceries (Austbygde)",
+				"info_hover" : ", Austbygde",
+				"name" : "Groceries",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 14,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Groceries",
+				"info" : "Austbygde",
+				"keyword_search" : "Groceries (Austbygde)",
+				"zoom" : 16,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.74459, 59.99174 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Groceries (Atrå)",
+				"info_hover" : ", Atrå",
+				"name" : "Groceries",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 14,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Groceries",
+				"info" : "Atrå",
+				"keyword_search" : "Groceries (Atrå)",
+				"zoom" : 14,
+				"active" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.63781, 59.88062 ]
+			},
+			"properties" : {
+				"filter_search" : "Support (3);Groceries (Rjukan)",
+				"info_hover" : ", Rjukan",
+				"name" : "Groceries",
+				"picture_link" : " ",
+				"type" : "3",
+				"group" : "Support (3)",
+				"icon_group" : 3,
+				"icon_subgroup" : 14,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"title" : "Groceries",
+				"info" : "Rjukan",
+				"keyword_search" : "Groceries (Rjukan)",
+				"zoom" : 14,
+				"active" : 1
+			}
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "service",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.68832, 59.86885 ]
+			},
+			"properties" : {
+				"filter_search" : "Service (9);Matstasjon og tellepost 32.5km",
+				"info_hover" : ", Matstasjon og tellepost 32.5km",
+				"name" : "Matstasjon og tellepost",
+				"picture_link" : " ",
+				"icon_group" : 9,
+				"type" : "9",
+				"id" : 64,
+				"group" : "Service (9)",
+				"icon_subgroup" : 38,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Matstasjon og tellepost",
+				"info" : "Matstasjon og tellepost 32.5km",
+				"pos_north" : 59.86885,
+				"pos_east" : 8.68832,
+				"zoom" : 16,
+				"keyword_search" : "Matstasjon og tellepost 32.5km",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.675483, 59.882271 ]
+			},
+			"properties" : {
+				"filter_search" : "Service (9);Matstasjon og tellepost - Zombie hill",
+				"info_hover" : ", Matstasjon og tellepost - Zombie hill",
+				"name" : "Matstasjon og tellepost",
+				"picture_link" : " ",
+				"icon_group" : 9,
+				"type" : "9",
+				"id" : 70,
+				"group" : "Service (9)",
+				"icon_subgroup" : 38,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Matstasjon og tellepost",
+				"info" : "Matstasjon og tellepost - Zombie hill",
+				"pos_north" : 59.882271,
+				"pos_east" : 8.675483,
+				"zoom" : 17,
+				"keyword_search" : "Matstasjon og tellepost - Zombie hill",
+				"active" : 1,
+				"kartløysing" : 2
+			}
+		}
+	]
+}

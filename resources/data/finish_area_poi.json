@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "finish_area",
+"features": [
+{ "type": "Feature", "properties": { "filter_search": "Finish area (5);Race Shop/Info stand (from 17:00 Saturday)", "info_hover": ", from 17:00 Saturday", "name": "Race Shop/Info stand", "picture_link": " ", "icon_group": 5, "type": "5", "id": 44, "group": "Finish area (5)", "icon_subgroup": 9, "icon_w": 32, "icon_h": 32, "icon_r": 0, "title": "Race Shop/Info stand", "info": "from 17:00 Saturday", "pos_north": 59.88014, "pos_east": 8.73432, "zoom": 17, "keyword_search": "Race Shop/Info stand (from 17:00 Saturday)", "active": 1, "kartløysing": 1 }, "geometry": { "type": "Point", "coordinates": [ 8.73432, 59.88014 ] } },
+{ "type": "Feature", "properties": { "filter_search": "Finish area (5);Rjukan minitri (Sunday 15:00)", "info_hover": ", Sunday 15:00", "name": "Rjukan minitri", "picture_link": " ", "icon_group": 5, "type": "5", "id": 50, "group": "Finish area (5)", "icon_subgroup": 23, "icon_w": 32, "icon_h": 32, "icon_r": 0, "title": "Rjukan minitri", "info": "Sunday 15:00", "pos_north": 59.87973, "pos_east": 8.62976, "zoom": 14, "keyword_search": "Rjukan minitri (Sunday 15:00)", "active": 1, "kartløysing": 1 }, "geometry": { "type": "Point", "coordinates": [ 8.62976, 59.87973 ] } },
+{ "type": "Feature", "properties": { "filter_search": "Finish area (5);T-shirt ceremony (T-shirt pick up 10:00, Ceremony 11:00)", "info_hover": ", T-shirt pick up 10:00, Ceremony 11:00", "name": "T-shirt ceremony", "picture_link": " ", "icon_group": 5, "type": "5", "id": 57, "group": "Finish area (5)", "icon_subgroup": 10, "icon_w": 32, "icon_h": 32, "icon_r": 0, "title": "T-shirt ceremony", "info": "T-shirt pick up 10:00, Ceremony 11:00", "pos_north": 59.8811, "pos_east": 8.73565, "zoom": 16, "keyword_search": "T-shirt ceremony (T-shirt pick up 10:00, Ceremony 11:00)", "active": 1, "kartløysing": 1 }, "geometry": { "type": "Point", "coordinates": [ 8.73565, 59.8811 ] } }
+]
+}

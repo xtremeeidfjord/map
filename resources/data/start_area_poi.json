@@ -1,0 +1,187 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "start_area",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.06722, 60.46804 ]
+			},
+			"properties" : {
+				"filter_search" : "Start area (2);Eidfjord Minitri (Friday afternoon)",
+				"info_hover" : ", Friday afternoon",
+				"name" : "Eidfjord Minitri",
+				"picture_link" : " ",
+				"icon_group" : 2,
+				"type" : "2",
+				"id" : 16,
+				"group" : "Start area (2)",
+				"icon_subgroup" : 23,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Eidfjord Minitri",
+				"info" : "Friday afternoon",
+				"pos_north" : 60.46804,
+				"pos_east" : 7.06722,
+				"zoom" : 16,
+				"keyword_search" : "Eidfjord Minitri (Friday afternoon)",
+				"active" : 1,
+				"kartløysing" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.06655, 60.4659 ]
+			},
+			"properties" : {
+				"filter_search" : "Start area (2);Friday Morning Social Swim (Presented by HUUB)",
+				"info_hover" : ", Presented by HUUB",
+				"name" : "Friday Morning Social Swim",
+				"picture_link" : " ",
+				"icon_group" : 2,
+				"type" : "2",
+				"id" : 22,
+				"group" : "Start area (2)",
+				"icon_subgroup" : 10,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Friday Morning Social Swim",
+				"info" : "Presented by HUUB",
+				"pos_north" : 60.4659,
+				"pos_east" : 7.06655,
+				"zoom" : 16,
+				"keyword_search" : "Friday Morning Social Swim (Presented by HUUB)",
+				"active" : 1,
+				"kartløysing" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.06804, 60.46786 ]
+			},
+			"properties" : {
+				"filter_search" : "Start area (2);Info stand (for athletes)",
+				"info_hover" : ", for athletes",
+				"name" : "Info stand",
+				"picture_link" : "<img src=\"/resources/pictures/poi_19_og_20.jpg\" alt=\"no picture\" height=\"425\" width=\"566\">",
+				"icon_group" : 2,
+				"type" : "2",
+				"id" : 36,
+				"group" : "Start area (2)",
+				"icon_subgroup" : 9,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Info stand",
+				"info" : "for athletes",
+				"pos_north" : 60.46786,
+				"pos_east" : 7.06804,
+				"zoom" : 16,
+				"keyword_search" : "Info stand (for athletes)",
+				"active" : 1,
+				"picture_w" : 566,
+				"picture_h" : 425,
+				"kartløysing" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.07248, 60.46342 ]
+			},
+			"properties" : {
+				"filter_search" : "Start area (2);Prerace-meeting (Hand out GPS - 14:00\nPrerace - 15:00 sharp )",
+				"info_hover" : ", Hand out GPS - 14:00\nPrerace - 15:00 sharp ",
+				"name" : "Prerace-meeting",
+				"picture_link" : "<img src=\"/resources/pictures/poi_21_-_prerace.jpg\" alt=\"no picture\" height=\"648\" width=\"566\">",
+				"icon_group" : 2,
+				"type" : "2",
+				"id" : 43,
+				"group" : "Start area (2)",
+				"icon_subgroup" : 9,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Prerace-meeting",
+				"info" : "Hand out GPS - 14:00\nPrerace - 15:00 sharp ",
+				"pos_north" : 60.46342,
+				"pos_east" : 7.07248,
+				"zoom" : 16,
+				"keyword_search" : "Prerace-meeting (Hand out GPS - 14:00\nPrerace - 15:00 sharp )",
+				"active" : 1,
+				"picture_w" : 566,
+				"picture_h" : 648,
+				"kartløysing" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.06804, 60.46786 ]
+			},
+			"properties" : {
+				"filter_search" : "Start area (2);Registration/Norseman Shop/Information ()",
+				"info_hover" : " ",
+				"name" : "Registration/Norseman Shop/Information",
+				"picture_link" : "<img src=\"/resources/pictures/poi_19_og_20.jpg\" alt=\"no picture\" height=\"425\" width=\"566\">",
+				"icon_group" : 2,
+				"type" : "2",
+				"id" : 46,
+				"group" : "Start area (2)",
+				"icon_subgroup" : 9,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Registration/Norseman Shop/Information",
+				"pos_north" : 60.46786,
+				"pos_east" : 7.06804,
+				"zoom" : 16,
+				"keyword_search" : "Registration/Norseman Shop/Information ()",
+				"active" : 1,
+				"picture_w" : 566,
+				"picture_h" : 425,
+				"kartløysing" : 1
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.07427, 60.46348 ]
+			},
+			"properties" : {
+				"filter_search" : "Start area (2);Tricamp (Opens Wednesday)",
+				"info_hover" : ", Opens Wednesday",
+				"name" : "Tricamp",
+				"picture_link" : "<img src=\"/resources/pictures/poi_22_-_tricamp.jpg\" alt=\"no picture\" height=\"425\" width=\"566\">",
+				"icon_group" : 2,
+				"type" : "2",
+				"id" : 56,
+				"group" : "Start area (2)",
+				"icon_subgroup" : 9,
+				"icon_w" : 32,
+				"icon_h" : 32,
+				"icon_r" : 0,
+				"title" : "Tricamp",
+				"info" : "Opens Wednesday",
+				"pos_north" : 60.46348,
+				"pos_east" : 7.07427,
+				"zoom" : 16,
+				"keyword_search" : "Tricamp (Opens Wednesday)",
+				"active" : 1,
+				"picture_w" : 566,
+				"picture_h" : 425,
+				"kartløysing" : 1
+			}
+		}
+	]
+}
