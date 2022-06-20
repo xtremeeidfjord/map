@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "name": "3d",
 "features": [
-{ "type": "Feature", "properties": { "filter_search": "3d;First view of Gaustatoppen", "info_hover": "First view of Gaustatoppen", "name": "First view of Gaustatoppen", "picture_link": " ", "icon_group": 6, "type": "6", "id": 4, "group": "3d (6)", "icon_subgroup": 8, "icon_w": 32, "icon_h": 32, "icon_r": 0, "title": "First view of Gaustatoppen", "info": "First view of Gaustatoppen (attention! old location of white finish)", "pos_north": 59.921777, "pos_east": 8.739434, "zoom": 14, "keyword_search": "First view of Gaustatoppen", "active": 1, "text_link": "/resources/3d/Gaustatoppen_3d_medium.html", "kartløysing": 1 }, "geometry": { "type": "Point", "coordinates": [ 8.739434, 59.921777 ] } }
+{ "type": "Feature", "properties": { "filter_search": null, "info_hover": null, "name": null, "picture_link": null, "icon_group": null, "type": null, "id": null, "group": null, "icon_subgroup": null, "icon_w": null, "icon_h": null, "icon_r": null, "title": null, "info": null, "pos_north": null, "pos_east": null, "zoom": null, "keyword_search": null, "active": null, "text_link": null, "kartløysing": null }, "geometry": { "type": "Point", "coordinates": [ 7.454587350992997, 60.523612728037598 ] } }
 ]
 }
