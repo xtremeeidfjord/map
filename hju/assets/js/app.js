@@ -195,12 +195,13 @@ function syncSidebar() {
 
 /* Basemap Layers */
 	
-// var mapquestUT_G = L.tileLayer("https://dntutnotilesprod.cloudapp.net/tilestache/ut_topo_light/{z}/{x}/{y}.jpg", {
-  // maxZoom: 16,
-  // minZoom: 1,
-  // attribution: 'Tiles courtesy of <a href="https://www.ut.no/" target="_blank">UT.NO</a>">'
-// });
+var Kartverket_Topo2 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}", {
+  maxZoom: 16,
+  minZoom: 1,
+  attribution: 'Tiles courtesy of <a href="Kartverket/" target="_blank">www.kartverket.no</a>">'
+});
 
+//https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}
 // https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?Version=1.0.0&service=wmts&request=getcapabilities
 
 var Kartverket0 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?&format=image/png&layers=topo2graatone&zoom={z}&x={x}&y={y}", {
@@ -1237,7 +1238,7 @@ $.getJSON("../resources/data/k_markers.json", function (data) {
 map = L.map("map", {
   zoom: 12,
   center: [60.15, 7.77],
-  layers: [Kartverket1,markerClusters, highlight],
+  layers: [Kartverket_Topo2,markerClusters, highlight],
   // layers: [mapquestKA2, kommune, markerClusters, highlight],
   // layers: [ml_1, ml_2,markerClusters, highlight],
   zoomControl: false,
@@ -1376,10 +1377,9 @@ if (document.body.clientWidth <= 767) {
 }
 
 var baseLayers = {
-  
-  "Kartverket.no":Kartverket1,
-  "OSM CartoDB":cartoLight
-};
+	"Baselayer color":Kartverket_Topo2,
+	"Baselayer gray":Kartverket1
+    };
 //bookmark
 
 var groupedOverlays = {
