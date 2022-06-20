@@ -483,9 +483,9 @@ var area_polygon = L.geoJson(null, {
       weight: 0.5,
       fill: true,
       fillColor: "#42bdff",
-	  opacity: 0.9,
-      fillOpacity: 0.5,
-	  clickable: true
+	  opacity: 0.0,
+      fillOpacity: 0.0,
+	  clickable: false
     };
   },
   onEachFeature: function (feature, layer) {
