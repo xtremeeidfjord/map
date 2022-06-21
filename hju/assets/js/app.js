@@ -434,7 +434,7 @@ L.tileLayer.wms("https://openwms.statkart.no/skwms1/wms.topo3.graatone?", {
 
 
 // var myIcon = L.icon({
-		// iconUrl: "../resources/img/Norseman_sponsor_logo_2018.png",
+		// iconUrl: "../resources/img/XXX.png",
        // iconSize: [89, 33], 
  
 // });
