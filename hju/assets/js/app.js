@@ -196,7 +196,7 @@ function syncSidebar() {
 /* Basemap Layers */
 	
 var Kartverket_Topo2 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}", {
-  maxZoom: 16,
+  maxZoom: 20,
   minZoom: 1,
   attribution: 'Tiles courtesy of <a href="Kartverket/" target="_blank">www.kartverket.no</a>">'
 });
@@ -205,21 +205,21 @@ var Kartverket_Topo2 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/
 // https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?Version=1.0.0&service=wmts&request=getcapabilities
 
 var Kartverket0 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?&format=image/png&layers=topo2graatone&zoom={z}&x={x}&y={y}", {
-  maxZoom: 18,
+  maxZoom: 20,
   zIndex: 1,
   attribution: 'Tiles <a href="https://www.kartverket.no/" target="_blank">Kartverket</a>'
 });
 // https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?Version=1.0.0&service=wmts&request=getcapabilities
 
 var Kartverket1 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?&layer=topo4graatone&style=default&tilematrixset=EPSG%3A3857&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix=EPSG%3A3857%3A{z}&TileCol={x}&TileRow={y}", {
-  maxZoom: 18,
+  maxZoom: 20,
   zIndex: 1,
   attribution: 'Tiles <a href="https://www.kartverket.no/" target="_blank">Kartverket</a>' + '. Icons <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>'
 });
 
 
 var cartoLight = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png", {
-  maxZoom: 18,
+  maxZoom: 20,
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://cartodb.com/attributions">CartoDB</a>' + '. Icons <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>'
 });
 
