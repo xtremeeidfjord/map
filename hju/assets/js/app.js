@@ -194,7 +194,12 @@ function syncSidebar() {
 }
 
 /* Basemap Layers */
-	
+var Esri_WorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+{
+  attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
+  maxZoom: 17
+});
+
 var Kartverket_Topo2 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}", {
   maxZoom: 20,
   minZoom: 1,
@@ -1378,7 +1383,8 @@ if (document.body.clientWidth <= 767) {
 
 var baseLayers = {
 	"Baselayer color":Kartverket_Topo2,
-	"Baselayer gray":Kartverket1
+	"Baselayer gray":Kartverket1,
+	"ESRI Imagery": Esri_WorldImagery
     };
 //bookmark
 
