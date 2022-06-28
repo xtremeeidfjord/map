@@ -1172,7 +1172,8 @@ var k_markers = L.geoJson(null, {
         iconUrl: "../resources/media/k_markers.png",
         iconSize: [50, 50], 
         iconAnchor: [25, 25], // xxx - halvparten av iconsize for å sikre at ikonet plasserast rett over punkt
-        popupAnchor: [0,0] //
+        popupAnchor: [0,0],
+			//
       })
 	  // ,
 	  // title: "Dist " + feature.properties.dist_akk + " km, TO GO: " + feature.properties.dist_to_go + " km / " + feature.properties.climb_to_go + " m",
@@ -1238,12 +1239,20 @@ direction: 'top',offset:L.point(-15,-15)});
 $.getJSON("../resources/data/k_markers.json", function (data) {
   k_markers.addData(data);
   map.addLayer(k_markersLayer);
+  map.on('zoomend', function() {
+    if (map.getZoom() <13){
+            map.removeLayer(k_markers);
+    }
+    else {
+            map.addLayer(k_markers);
+        }
+});
 });
 
 map = L.map("map", {
   zoom: 12,
   center: [60.15, 7.77],
-  layers: [Kartverket_Topo2,markerClusters, highlight],
+  layers: [Kartverket_Topo2,k_markers,markerClusters, highlight],
   // layers: [mapquestKA2, kommune, markerClusters, highlight],
   // layers: [ml_1, ml_2,markerClusters, highlight],
   zoomControl: false,
@@ -1390,7 +1399,8 @@ var baseLayers = {
 
 var groupedOverlays = {
   "POI": {
-    "<b>HJU</b>": hju_long_course_poiLayer
+    "<b>HJU</b>": hju_long_course_poiLayer,
+	"K-markers":k_markers
 	//,
 	//"<b>HJU 34K</b>": hju_short_course_poiLayer,
 	//"<img src='../resources/img/g2_start_area.png' width='32' height='32'>": start_area_poiLayer,
@@ -1401,8 +1411,7 @@ var groupedOverlays = {
 
   "Map": {
     "<b><font color='red'> HJU 95K</b>": course1Lines,
-	"<b>HJU 34K</b>": course2Lines,
-	"K-markers":k_markers
+	"<b>HJU 34K</b>": course2Lines
 	//,
 	//"H-CAT":route_h_catLines
 	//"Area": area_polygon,
