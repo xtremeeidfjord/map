@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "support",
+"features": [
+{ "type": "Feature", "properties": { "filter_search": null, "info_hover": null, "name": null, "picture_link": null, "icon_group": null, "type": null, "id": null, "group": null, "icon_subgroup": null, "icon_w": null, "icon_h": null, "icon_r": null, "title": null, "pos_north": null, "pos_east": null, "zoom": null, "keyword_search": null, "active": null, "kartløysing": null, "info": null, "order": null, "picture_w": null, "picture_h": null, "text_link": null }, "geometry": { "type": "Point", "coordinates": [ 7.454587350992997, 60.523612728037598 ] } }
+]
+}

@@ -43,7 +43,7 @@ L.control.zoomDisplay = function (options) {
 };
 
 
-var map, featureList, finish_area_poiSearch = [], hju_long_course_poiSearch = [], support_poiSearch = [], start_area_poiSearch = [], d3_poiSearch = [], hju_short_course_poiSearch =[];
+var map, featureList, finish_area_poiSearch = [], hvm_long_course_poiSearch = [], support_poiSearch = [], start_area_poiSearch = [], d3_poiSearch = [], hvm_short_course_poiSearch =[];
 
 $(window).resize(function() {
   sizeLayerControl();
@@ -129,9 +129,9 @@ function sidebarClick(id) {
 function syncSidebar() {
   /* Empty sidebar features */
   $("#feature-list tbody").empty();
-  /* Loop through hju_long_course_poi layer and add only features which are in the map bounds */
-  hju_long_course_poi.eachLayer(function (layer) {
-    if (map.hasLayer(hju_long_course_poiLayer)) {
+  /* Loop through hvm_long_course_poi layer and add only features which are in the map bounds */
+  hvm_long_course_poi.eachLayer(function (layer) {
+    if (map.hasLayer(hvm_long_course_poiLayer)) {
  // if (map.getBounds().contains(layer.getLatLng())) 
 	  {
         $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="48" height="30" src="../resources/media/' + layer.feature.properties.media_name + '.png"></td><td class="feature-name">' + layer.feature.properties.keyword_search + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
@@ -174,9 +174,9 @@ function syncSidebar() {
       // }
     // }
   // }); 
-    /* Loop through hju_short_course_poi layer and add only features which are in the map bounds */
-   // hju_short_course_poi.eachLayer(function (layer) {
-    // if (map.hasLayer(hju_short_course_poiLayer)) {
+    /* Loop through hvm_short_course_poi layer and add only features which are in the map bounds */
+   // hvm_short_course_poi.eachLayer(function (layer) {
+    // if (map.hasLayer(hvm_short_course_poiLayer)) {
       // // if (map.getBounds().contains(layer.getLatLng())) 
 	  // {
         // $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="24" height="24" src="../resources/media/' + layer.feature.properties.media_name + '.png"></td><td class="feature-name">' + layer.feature.properties.keyword_search + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
@@ -345,7 +345,7 @@ var area_polygon = L.geoJson(null, {
   layer.bindPopup(feature.properties.info);}
 		
  });
-$.getJSON("../resources/data/hju/hju_area_polygon.json", function (data) {
+$.getJSON("../resources/data/hvm/hvm_area_polygon.json", function (data) {
   area_polygon.addData(data);
   map.addLayer(area_polygon);
 });
@@ -398,7 +398,7 @@ var course2Lines = L.geoJson(null, {
     });
   }
 });
-$.getJSON("../resources/data/hju/hju_short_course_line.json", function (data) {
+$.getJSON("../resources/data/hvm/hvm_short_course_line.json", function (data) {
   course2Lines.addData(data);
   map.addLayer(course2Lines);
 });
@@ -485,7 +485,7 @@ var course1Lines = L.geoJson(null, {
     });
   }
 });
-$.getJSON("../resources/data/hju/hju_long_course_line.json", function (data) {
+$.getJSON("../resources/data/hvm/hvm_long_course_line.json", function (data) {
   course1Lines.addData(data);
   map.addLayer(course1Lines);
 });
@@ -550,7 +550,7 @@ var route_h_catLines = L.geoJson(null, {
     });
   }
 });
-$.getJSON("../resources/data/hju/hju_long_course_line_dz_niv.json", function (data) {
+$.getJSON("../resources/data/hvm/hvm_long_course_line_dz_niv.json", function (data) {
   route_h_catLines.addData(data);
   //map.addLayer(route_h_catLines);
 });
@@ -567,8 +567,8 @@ var markerClusters = new L.MarkerClusterGroup({
 
 /* Empty layer placeholder to add to layer control for listening when to add/remove stigning to markerClusters layer */
 
-var hju_long_course_poiLayer = L.geoJson(null);
-var hju_long_course_poi = L.geoJson(null, {
+var hvm_long_course_poiLayer = L.geoJson(null);
+var hvm_long_course_poi = L.geoJson(null, {
   pointToLayer: function (feature, latlng)
   {
     return L.marker(latlng, {
@@ -601,9 +601,9 @@ var hju_long_course_poi = L.geoJson(null, {
         }
       });
       $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="24" height="24" src="../resources/img/g4_dangers.png"></td><td class="feature-name">' + layer.feature.properties.keyword_search + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-      hju_long_course_poiSearch.push({
+      hvm_long_course_poiSearch.push({
         name: layer.feature.properties.keyword_search,
-        source: "hju_long_course_poi",
+        source: "hvm_long_course_poi",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
         lng: layer.feature.geometry.coordinates[0]
@@ -625,9 +625,9 @@ var hju_long_course_poi = L.geoJson(null, {
         }
       });
       $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="24" height="24" src="../resources/img/g4_dangers.png"></td><td class="feature-name">' + layer.feature.properties.keyword_search + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-      hju_long_course_poiSearch.push({
+      hvm_long_course_poiSearch.push({
         name: layer.feature.properties.keyword_search,
-        source: "hju_long_course_poi",
+        source: "hvm_long_course_poi",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
         lng: layer.feature.geometry.coordinates[0]
@@ -636,9 +636,9 @@ var hju_long_course_poi = L.geoJson(null, {
 	
   }
 });
-$.getJSON("../resources/data/hju/hju_long_course_poi.json", function (data) {
-  hju_long_course_poi.addData(data);
-  map.addLayer(hju_long_course_poiLayer);
+$.getJSON("../resources/data/hvm/hvm_long_course_poi.json", function (data) {
+  hvm_long_course_poi.addData(data);
+  map.addLayer(hvm_long_course_poiLayer);
 });
 
 //********************************
@@ -712,7 +712,7 @@ else     if (feature.properties) {
 	
   }
 });
-$.getJSON("../resources/data/hju/hju_finish_area_poi.json", function (data) {
+$.getJSON("../resources/data/hvm/hvm_finish_area_poi.json", function (data) {
   finish_area_poi.addData(data);
   map.addLayer(finish_area_poiLayer);
 });
@@ -792,7 +792,7 @@ var start_area_poi = L.geoJson(null, {
 	
   }
 });
-$.getJSON("../resources/data/hju/hju_start_area_poi.json", function (data) {
+$.getJSON("../resources/data/hvm/hvm_start_area_poi.json", function (data) {
   start_area_poi.addData(data);
   map.addLayer(start_area_poiLayer);
 });
@@ -868,7 +868,7 @@ var support_poi = L.geoJson(null, {
 	
   }
 });
-$.getJSON("../resources/data/hju/hju_support_poi.json", function (data) {
+$.getJSON("../resources/data/hvm/hvm_support_poi.json", function (data) {
   support_poi.addData(data);
   map.addLayer(support_poiLayer);
 });
@@ -930,14 +930,14 @@ var d3_poi = L.geoJson(null, {
     }
   }
 });
-$.getJSON("../resources/data/hju/hju_d3_poi.json", function (data) {
+$.getJSON("../resources/data/hvm/hvm_d3_poi.json", function (data) {
   d3_poi.addData(data);
   map.addLayer(d3_poiLayer);
 });
 
 
-var hju_short_course_poiLayer = L.geoJson(null);
-var hju_short_course_poi = L.geoJson(null, {
+var hvm_short_course_poiLayer = L.geoJson(null);
+var hvm_short_course_poi = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {
       icon: L.icon({
@@ -969,9 +969,9 @@ var hju_short_course_poi = L.geoJson(null, {
         }
       });
       $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="24" height="24" src="../resources/img/g4_dangers.png"></td><td class="feature-name">' + layer.feature.properties.keyword_search + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-      hju_short_course_poiSearch.push({
+      hvm_short_course_poiSearch.push({
         name: layer.feature.properties.keyword_search,
-        source: "hju_short_course_poi",
+        source: "hvm_short_course_poi",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
         lng: layer.feature.geometry.coordinates[0]
@@ -993,9 +993,9 @@ var hju_short_course_poi = L.geoJson(null, {
         }
       });
       $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="24" height="24" src="../resources/img/g4_dangers.png"></td><td class="feature-name">' + layer.feature.properties.keyword_search + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-      hju_short_course_poiSearch.push({
+      hvm_short_course_poiSearch.push({
         name: layer.feature.properties.keyword_search,
-        source: "hju_short_course_poi",
+        source: "hvm_short_course_poi",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
         lng: layer.feature.geometry.coordinates[0]
@@ -1004,9 +1004,9 @@ var hju_short_course_poi = L.geoJson(null, {
 	
   }
 });
-$.getJSON("../resources/data/hju/hju_short_course_poi.json", function (data) {
-  hju_short_course_poi.addData(data);
-  map.addLayer(hju_short_course_poiLayer);
+$.getJSON("../resources/data/hvm/hvm_short_course_poi.json", function (data) {
+  hvm_short_course_poi.addData(data);
+  map.addLayer(hvm_short_course_poiLayer);
 });
 
 
@@ -1083,7 +1083,7 @@ direction: 'top',offset:L.point(-15,-15)});
 		// STOP - Denne vil gi ein boks som vert ståande på skjermen inntil man klikkar	
 			
 });
-$.getJSON("../resources/data/hju/hju_k_markers.json", function (data) {
+$.getJSON("../resources/data/hvm/hvm_k_markers.json", function (data) {
   k_markers.addData(data);
   map.addLayer(k_markersLayer);
   map.on('zoomend', function() {
@@ -1110,8 +1110,8 @@ map = L.map("map", {
 	 
 /* Layer control listeners that allow for a single markerClusters layer */
 map.on("overlayadd", function(e) {
-  if (e.layer === hju_long_course_poiLayer) {
-    markerClusters.addLayer(hju_long_course_poi);
+  if (e.layer === hvm_long_course_poiLayer) {
+    markerClusters.addLayer(hvm_long_course_poi);
 
     syncSidebar();
   }
@@ -1134,16 +1134,16 @@ map.on("overlayadd", function(e) {
 
     syncSidebar();
   }
-   if (e.layer === hju_short_course_poiLayer) {
-    markerClusters.addLayer(hju_short_course_poi);
+   if (e.layer === hvm_short_course_poiLayer) {
+    markerClusters.addLayer(hvm_short_course_poi);
 
     syncSidebar();
   }
 });
 
 map.on("overlayremove", function(e) {
-  if (e.layer === hju_long_course_poiLayer) {
-    markerClusters.removeLayer(hju_long_course_poi);
+  if (e.layer === hvm_long_course_poiLayer) {
+    markerClusters.removeLayer(hvm_long_course_poi);
     syncSidebar();
   }
   // if (e.layer === support_poiLayer) {
@@ -1162,8 +1162,8 @@ map.on("overlayremove", function(e) {
     // markerClusters.removeLayer(d3_poi);
     // syncSidebar();
   //}
-    if (e.layer === hju_short_course_poiLayer) {
-    markerClusters.removeLayer(hju_short_course_poi);
+    if (e.layer === hvm_short_course_poiLayer) {
+    markerClusters.removeLayer(hvm_short_course_poi);
     syncSidebar();
   }
 });
@@ -1246,10 +1246,10 @@ var baseLayers = {
 
 var groupedOverlays = {
   "POI": {
-    "<b>HJU</b>": hju_long_course_poiLayer,
+    "<b>HVM</b>": hvm_long_course_poiLayer,
 	"K-markers":k_markers
 	//,
-	//"<b>HJU 34K</b>": hju_short_course_poiLayer,
+	//"<b>HVM 21K</b>": hvm_short_course_poiLayer,
 	//"<img src='../resources/img/g2_start_area.png' width='32' height='32'>": start_area_poiLayer,
 	//"<img src='../resources/img/g3_support.png' width='32' height='32'>": support_poiLayer,
 	//"<img src='../resources/img/g5_finish_area.png' width='32' height='32'>": finish_area_poiLayer,
@@ -1257,8 +1257,8 @@ var groupedOverlays = {
 	},
 
   "Map": {
-    "<b><font color='red'> HJU 95K</b>": course1Lines,
-	"<b>HJU 34K</b>": course2Lines
+    "<b><font color='red'> HVM 43K</b>": course1Lines,
+	"<b>HVM 21K</b>": course2Lines
 	//
 	//"Grade":route_h_catLines
 	//"Area": area_polygon,
@@ -1294,7 +1294,7 @@ $(document).one("ajaxStop", function () {
   $("#loading").hide();
   sizeLayerControl();
   /* Fit map to area_polygon bounds */
-  map.fitBounds(hju_long_course_poi.getBounds()); 
+  map.fitBounds(hvm_long_course_poi.getBounds()); 
   featureList = new List("features", {valueNames: ["feature-name"]});
   featureList.sort("feature-name", {order:"asc"});
 
@@ -1308,13 +1308,13 @@ $(document).one("ajaxStop", function () {
     limit: 10
   });
 
-  var hju_long_course_poiBH = new Bloodhound({
-    name: "hju_long_course_poi",
+  var hvm_long_course_poiBH = new Bloodhound({
+    name: "hvm_long_course_poi",
     datumTokenizer: function (d) {
       return Bloodhound.tokenizers.whitespace(d.name);
     },
     queryTokenizer: Bloodhound.tokenizers.whitespace,
-    local: hju_long_course_poiSearch,
+    local: hvm_long_course_poiSearch,
     limit: 10
   });
 
@@ -1348,13 +1348,13 @@ $(document).one("ajaxStop", function () {
     limit: 10
   });
 
-     var hju_short_course_poiBH = new Bloodhound({
-    name: "hju_short_course_poi",
+     var hvm_short_course_poiBH = new Bloodhound({
+    name: "hvm_short_course_poi",
     datumTokenizer: function (d) {
       return Bloodhound.tokenizers.whitespace(d.name);
     },
     queryTokenizer: Bloodhound.tokenizers.whitespace,
-    local: hju_short_course_poiSearch,
+    local: hvm_short_course_poiSearch,
     limit: 10
   });
   
@@ -1389,11 +1389,11 @@ $(document).one("ajaxStop", function () {
     limit: 10
   });
   finish_area_poiBH.initialize();
-  hju_long_course_poiBH.initialize();
+  hvm_long_course_poiBH.initialize();
   start_area_poiBH.initialize();
   support_poiBH.initialize();
   d3_poiBH.initialize();
-  hju_short_course_poiBH.initialize();
+  hvm_short_course_poiBH.initialize();
   geonamesBH.initialize();
 
   /* instantiate the typeahead UI */
@@ -1404,9 +1404,9 @@ $(document).one("ajaxStop", function () {
   }, 
  
   {
-    name: "hju_long_course_poi",
+    name: "hvm_long_course_poi",
     displayKey: "name",
-    source: hju_long_course_poiBH.ttAdapter(),
+    source: hvm_long_course_poiBH.ttAdapter(),
     templates: {
       header: "<h4 class='typeahead-header'><img src='../resources/img/g1_course.png' width='24' height='24'></h4>",
       suggestion: Handlebars.compile(["{{name}}<br>&nbsp;"].join(""))
@@ -1451,9 +1451,9 @@ $(document).one("ajaxStop", function () {
     }
   },  
   {
-    name: "hju_short_course_poi",
+    name: "hvm_short_course_poi",
     displayKey: "name",
-    source: hju_short_course_poiBH.ttAdapter(),
+    source: hvm_short_course_poiBH.ttAdapter(),
     templates: {
       header: "<h4 class='typeahead-header'><img src='../resources/img/g4_dangers.png' width='24' height='24'></h4>",
       suggestion: Handlebars.compile(["{{name}}<br>&nbsp;"].join(""))
@@ -1470,9 +1470,9 @@ $(document).one("ajaxStop", function () {
     if (datum.source === "area_polygon") {
       map.fitBounds(datum.bounds);
     }
-    if (datum.source === "hju_long_course_poi") {
-      if (!map.hasLayer(hju_long_course_poiLayer)) {
-        map.addLayer(hju_long_course_poiLayer);
+    if (datum.source === "hvm_long_course_poi") {
+      if (!map.hasLayer(hvm_long_course_poiLayer)) {
+        map.addLayer(hvm_long_course_poiLayer);
       }
       map.setView([datum.lat, datum.lng], 14);
       if (map._layers[datum.id]) {
@@ -1516,9 +1516,9 @@ $(document).one("ajaxStop", function () {
       }
     }
 	
-	if (datum.source === "hju_short_course_poi") {
+	if (datum.source === "hvm_short_course_poi") {
       if (!map.hasLayer(finish_area_poiLayer)) {
-        map.addLayer(hju_short_course_poiLayer);
+        map.addLayer(hvm_short_course_poiLayer);
       }
       map.setView([datum.lat, datum.lng], 14);
       if (map._layers[datum.id]) {
