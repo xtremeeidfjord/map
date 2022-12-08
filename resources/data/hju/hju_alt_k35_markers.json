@@ -1,0 +1,380 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "k35_markers",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2774136568, 60.4309232596, 814.0303132608 ]
+			},
+			"properties" : {
+				"dist_akk" : "1",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2862747854, 60.4371693764, 861.019745975 ]
+			},
+			"properties" : {
+				"dist_akk" : "2",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2993286057, 60.4383958328, 1058.5050672855 ]
+			},
+			"properties" : {
+				"dist_akk" : "3",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.3169146687, 60.4388121855, 1088.0495414993 ]
+			},
+			"properties" : {
+				"dist_akk" : "4",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.3325022867, 60.4365316545, 1128.1632449486 ]
+			},
+			"properties" : {
+				"dist_akk" : "5",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.3481167162, 60.4353509334, 1136.6178206333 ]
+			},
+			"properties" : {
+				"dist_akk" : "6",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.3636129094, 60.439486487, 1098.8127405133 ]
+			},
+			"properties" : {
+				"dist_akk" : "7",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.3729649684, 60.4448484964, 1075.1074895659 ]
+			},
+			"properties" : {
+				"dist_akk" : "8",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.383159362, 60.4503147229, 1127.3940256066 ]
+			},
+			"properties" : {
+				"dist_akk" : "9",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4004648147, 60.4505370971, 1171.7676568868 ]
+			},
+			"properties" : {
+				"dist_akk" : "10",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4181564428, 60.4501617059, 1186.0439129623 ]
+			},
+			"properties" : {
+				"dist_akk" : "11",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4323496509, 60.4468680515, 1191.0325036517 ]
+			},
+			"properties" : {
+				"dist_akk" : "12",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4442067208, 60.4431345022, 1147.9019386425 ]
+			},
+			"properties" : {
+				"dist_akk" : "13",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.456487171, 60.4392625489, 989.0636344654 ]
+			},
+			"properties" : {
+				"dist_akk" : "14",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.46169902, 60.431292918, 950.4364539336 ]
+			},
+			"properties" : {
+				"dist_akk" : "15",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4772531299, 60.4289578264, 1007.6376639213 ]
+			},
+			"properties" : {
+				"dist_akk" : "16",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4929358594, 60.4262258238, 1057.9000244141 ]
+			},
+			"properties" : {
+				"dist_akk" : "17",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4873455317, 60.4264934325, 1047.1634755199 ]
+			},
+			"properties" : {
+				"dist_akk" : "18",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4716745258, 60.4289135518, 988.6599330917 ]
+			},
+			"properties" : {
+				"dist_akk" : "19",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4589968873, 60.4337992824, 959.2958159584 ]
+			},
+			"properties" : {
+				"dist_akk" : "20",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4518639787, 60.4405299997, 1013.0453701923 ]
+			},
+			"properties" : {
+				"dist_akk" : "21",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4398988485, 60.4445463111, 1174.8445683143 ]
+			},
+			"properties" : {
+				"dist_akk" : "22",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4277174008, 60.448365539, 1193.8576101269 ]
+			},
+			"properties" : {
+				"dist_akk" : "23",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.4121270926, 60.4502327272, 1178.4799803734 ]
+			},
+			"properties" : {
+				"dist_akk" : "24",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.394403764, 60.4501620171, 1160.5963082584 ]
+			},
+			"properties" : {
+				"dist_akk" : "25",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.3799051433, 60.4484917165, 1097.9142714381 ]
+			},
+			"properties" : {
+				"dist_akk" : "26",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.3713808739, 60.4426670254, 1069.1848333065 ]
+			},
+			"properties" : {
+				"dist_akk" : "27",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.3583199447, 60.4382126225, 1123.6081925992 ]
+			},
+			"properties" : {
+				"dist_akk" : "28",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.3424307391, 60.4343078597, 1139.7848589197 ]
+			},
+			"properties" : {
+				"dist_akk" : "29",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.3271864614, 60.4380728226, 1099.8718005824 ]
+			},
+			"properties" : {
+				"dist_akk" : "30",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.3106791454, 60.4385818372, 1075.0011812858 ]
+			},
+			"properties" : {
+				"dist_akk" : "31",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2938487475, 60.4383227219, 998.8174513947 ]
+			},
+			"properties" : {
+				"dist_akk" : "32",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.2827221752, 60.4349044347, 827.7541616847 ]
+			},
+			"properties" : {
+				"dist_akk" : "33",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.275374038, 60.4278621612, 792.7057980708 ]
+			},
+			"properties" : {
+				"dist_akk" : "34",
+				"title" : "Dynafit Hardangerjøkulen Ultra 2023 ALTERNATIVE 35K"
+			}
+		}
+	]
+}

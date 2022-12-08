@@ -1089,20 +1089,20 @@ direction: 'top',offset:L.point(-15,-15)});
 $.getJSON("../resources/data/hju/hju_k_markers.json", function (data) {
   k_markers.addData(data);
   map.addLayer(k_markersLayer);
-  map.on('zoomend', function() {
-    if (map.getZoom() <13){
-            map.removeLayer(k_markers);
-    }
-    else {
-            map.addLayer(k_markers);
-        }
-});
+  // map.on('zoomend', function() {
+    // if (map.getZoom() <13){
+            // map.removeLayer(k_markers);
+    // }
+    // else {
+            // map.addLayer(k_markers);
+        // }
+// });
 });
 
 map = L.map("map", {
   zoom: 12,
   center: [60.15, 7.77],
-  layers: [Kartverket_Topo2,k_markers,markerClusters, highlight],
+  layers: [Kartverket_Topo2,markerClusters, highlight],
   // layers: [mapquestKA2, kommune, markerClusters, highlight],
   // layers: [ml_1, ml_2,markerClusters, highlight],
   zoomControl: false,
