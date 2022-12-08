@@ -43,7 +43,7 @@ L.control.zoomDisplay = function (options) {
 };
 
 
-var map, featureList, finish_area_poiSearch = [], hju_long_course_poiSearch = [], support_poiSearch = [], start_area_poiSearch = [], d3_poiSearch = [], hju_short_course_poiSearch =[];
+var map, featureList, finish_area_poiSearch = [], hju_long_course_alt_poiSearch = [], support_poiSearch = [], start_area_poiSearch = [], d3_poiSearch = [], hju_short_course_poiSearch =[];
 
 $(window).resize(function() {
   sizeLayerControl();
@@ -129,9 +129,9 @@ function sidebarClick(id) {
 function syncSidebar() {
   /* Empty sidebar features */
   $("#feature-list tbody").empty();
-  /* Loop through hju_long_course_poi layer and add only features which are in the map bounds */
-  hju_long_course_poi.eachLayer(function (layer) {
-    if (map.hasLayer(hju_long_course_poiLayer)) {
+  /* Loop through hju_long_course_alt_poi layer and add only features which are in the map bounds */
+  hju_long_course_alt_poi.eachLayer(function (layer) {
+    if (map.hasLayer(hju_long_course_alt_poiLayer)) {
  // if (map.getBounds().contains(layer.getLatLng())) 
 	  {
         $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="48" height="30" src="../resources/media/' + layer.feature.properties.media_name + '.png"></td><td class="feature-name">' + layer.feature.properties.keyword_search + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
@@ -345,7 +345,7 @@ var area_polygon = L.geoJson(null, {
   layer.bindPopup(feature.properties.info);}
 		
  });
-$.getJSON("../resources/data/hju/hju_area_polygon.json", function (data) {
+$.getJSON("../resources/data/hju/hju_alt_area_polygon.json", function (data) {
   area_polygon.addData(data);
   map.addLayer(area_polygon);
 });
@@ -398,7 +398,7 @@ var course2Lines = L.geoJson(null, {
     });
   }
 });
-$.getJSON("../resources/data/hju/hju_short_course_line.json", function (data) {
+$.getJSON("../resources/data/hju/hju_short_course_alt_line.json", function (data) {
   course2Lines.addData(data);
   map.addLayer(course2Lines);
 });
@@ -486,7 +486,7 @@ var course1Lines = L.geoJson(null, {
     });
   }
 });
-$.getJSON("../resources/data/hju/hju_long_course_line.json", function (data) {
+$.getJSON("../resources/data/hju/hju_long_course_alt_line.json", function (data) {
   course1Lines.addData(data);
   map.addLayer(course1Lines);
 });
@@ -570,8 +570,8 @@ var markerClusters = new L.MarkerClusterGroup({
 
 /* Empty layer placeholder to add to layer control for listening when to add/remove stigning to markerClusters layer */
 
-var hju_long_course_poiLayer = L.geoJson(null);
-var hju_long_course_poi = L.geoJson(null, {
+var hju_long_course_alt_poiLayer = L.geoJson(null);
+var hju_long_course_alt_poi = L.geoJson(null, {
   pointToLayer: function (feature, latlng)
   {
     return L.marker(latlng, {
@@ -604,9 +604,9 @@ var hju_long_course_poi = L.geoJson(null, {
         }
       });
       $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="24" height="24" src="../resources/img/g4_dangers.png"></td><td class="feature-name">' + layer.feature.properties.keyword_search + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-      hju_long_course_poiSearch.push({
+      hju_long_course_alt_poiSearch.push({
         name: layer.feature.properties.keyword_search,
-        source: "hju_long_course_poi",
+        source: "hju_long_course_alt_poi",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
         lng: layer.feature.geometry.coordinates[0]
@@ -628,9 +628,9 @@ var hju_long_course_poi = L.geoJson(null, {
         }
       });
       $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="24" height="24" src="../resources/img/g4_dangers.png"></td><td class="feature-name">' + layer.feature.properties.keyword_search + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-      hju_long_course_poiSearch.push({
+      hju_long_course_alt_poiSearch.push({
         name: layer.feature.properties.keyword_search,
-        source: "hju_long_course_poi",
+        source: "hju_long_course_alt_poi",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
         lng: layer.feature.geometry.coordinates[0]
@@ -639,9 +639,9 @@ var hju_long_course_poi = L.geoJson(null, {
 	
   }
 });
-$.getJSON("../resources/data/hju/hju_long_course_poi.json", function (data) {
-  hju_long_course_poi.addData(data);
-  map.addLayer(hju_long_course_poiLayer);
+$.getJSON("../resources/data/hju/hju_long_course_alt_poi.json", function (data) {
+  hju_long_course_alt_poi.addData(data);
+  map.addLayer(hju_long_course_alt_poiLayer);
 });
 
 //********************************
@@ -1113,8 +1113,8 @@ map = L.map("map", {
 	 
 /* Layer control listeners that allow for a single markerClusters layer */
 map.on("overlayadd", function(e) {
-  if (e.layer === hju_long_course_poiLayer) {
-    markerClusters.addLayer(hju_long_course_poi);
+  if (e.layer === hju_long_course_alt_poiLayer) {
+    markerClusters.addLayer(hju_long_course_alt_poi);
 
     syncSidebar();
   }
@@ -1145,8 +1145,8 @@ map.on("overlayadd", function(e) {
 });
 
 map.on("overlayremove", function(e) {
-  if (e.layer === hju_long_course_poiLayer) {
-    markerClusters.removeLayer(hju_long_course_poi);
+  if (e.layer === hju_long_course_alt_poiLayer) {
+    markerClusters.removeLayer(hju_long_course_alt_poi);
     syncSidebar();
   }
   // if (e.layer === support_poiLayer) {
@@ -1249,7 +1249,7 @@ var baseLayers = {
 
 var groupedOverlays = {
   "POI": {
-    "<b>HJU</b>": hju_long_course_poiLayer,
+    "<b>HJU</b>": hju_long_course_alt_poiLayer,
 	"K-markers":k_markers
 	//,
 	//"<b>HJU 34K</b>": hju_short_course_poiLayer,
@@ -1260,8 +1260,8 @@ var groupedOverlays = {
 	},
 
   "Map": {
-    "<b><font color='red'> HJU 95K</b>": course1Lines,
-	"<b>HJU 34K</b>": course2Lines
+    "<b><font color='red'> HJU 100K alt.</b>": course1Lines,
+	"<b>HJU 35K alt.</b>": course2Lines
 	//
 	//"Grade":route_h_catLines
 	//"Area": area_polygon,
@@ -1297,7 +1297,7 @@ $(document).one("ajaxStop", function () {
   $("#loading").hide();
   sizeLayerControl();
   /* Fit map to area_polygon bounds */
-  map.fitBounds(hju_long_course_poi.getBounds()); 
+  map.fitBounds(area_polygon.getBounds()); 
   featureList = new List("features", {valueNames: ["feature-name"]});
   featureList.sort("feature-name", {order:"asc"});
 
@@ -1311,13 +1311,13 @@ $(document).one("ajaxStop", function () {
     limit: 10
   });
 
-  var hju_long_course_poiBH = new Bloodhound({
-    name: "hju_long_course_poi",
+  var hju_long_course_alt_poiBH = new Bloodhound({
+    name: "hju_long_course_alt_poi",
     datumTokenizer: function (d) {
       return Bloodhound.tokenizers.whitespace(d.name);
     },
     queryTokenizer: Bloodhound.tokenizers.whitespace,
-    local: hju_long_course_poiSearch,
+    local: hju_long_course_alt_poiSearch,
     limit: 10
   });
 
@@ -1392,7 +1392,7 @@ $(document).one("ajaxStop", function () {
     limit: 10
   });
   finish_area_poiBH.initialize();
-  hju_long_course_poiBH.initialize();
+  hju_long_course_alt_poiBH.initialize();
   start_area_poiBH.initialize();
   support_poiBH.initialize();
   d3_poiBH.initialize();
@@ -1407,9 +1407,9 @@ $(document).one("ajaxStop", function () {
   }, 
  
   {
-    name: "hju_long_course_poi",
+    name: "hju_long_course_alt_poi",
     displayKey: "name",
-    source: hju_long_course_poiBH.ttAdapter(),
+    source: hju_long_course_alt_poiBH.ttAdapter(),
     templates: {
       header: "<h4 class='typeahead-header'><img src='../resources/img/g1_course.png' width='24' height='24'></h4>",
       suggestion: Handlebars.compile(["{{name}}<br>&nbsp;"].join(""))
@@ -1473,9 +1473,9 @@ $(document).one("ajaxStop", function () {
     if (datum.source === "area_polygon") {
       map.fitBounds(datum.bounds);
     }
-    if (datum.source === "hju_long_course_poi") {
-      if (!map.hasLayer(hju_long_course_poiLayer)) {
-        map.addLayer(hju_long_course_poiLayer);
+    if (datum.source === "hju_long_course_alt_poi") {
+      if (!map.hasLayer(hju_long_course_alt_poiLayer)) {
+        map.addLayer(hju_long_course_alt_poiLayer);
       }
       map.setView([datum.lat, datum.lng], 14);
       if (map._layers[datum.id]) {
