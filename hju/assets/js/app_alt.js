@@ -1337,9 +1337,9 @@ var baseLayers = {
 
 var groupedOverlays = {
   "POI": {
-    "K-mark 35K":k35_markers,
-	"<b>HJU</b>": hju_long_course_alt_poiLayer,
-	"<b><font color='red'>K-mark 100K</b>":k100_markers,
+    "<b>HJU</b>": hju_long_course_alt_poiLayer,
+	"K-mark 35K":k35_markers,
+	"<b><font color='red'>K-mark 100K</b>":k100_markers
 		
 	//,
 	//"<b>HJU 34K</b>": hju_short_course_poiLayer,

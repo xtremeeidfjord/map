@@ -6,7 +6,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.2774136568, 60.4309232596, 814.0303132608 ]
+				"coordinates" : [ 7.2772823704, 60.430862952, 814.2762305014 ]
 			},
 			"properties" : {
 				"dist_akk" : "1",
@@ -17,7 +17,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.2862747854, 60.4371693764, 861.019745975 ]
+				"coordinates" : [ 7.2861676714, 60.436996804, 860.4543790633 ]
 			},
 			"properties" : {
 				"dist_akk" : "2",
@@ -28,7 +28,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.2993286057, 60.4383958328, 1058.5050672855 ]
+				"coordinates" : [ 7.2987945121, 60.4384129085, 1056.2544912413 ]
 			},
 			"properties" : {
 				"dist_akk" : "3",
@@ -39,7 +39,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.3169146687, 60.4388121855, 1088.0495414993 ]
+				"coordinates" : [ 7.3161866884, 60.4388317522, 1085.838662095 ]
 			},
 			"properties" : {
 				"dist_akk" : "4",
@@ -50,7 +50,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.3325022867, 60.4365316545, 1128.1632449486 ]
+				"coordinates" : [ 7.3317688389, 60.4367940237, 1123.0445494142 ]
 			},
 			"properties" : {
 				"dist_akk" : "5",
@@ -61,7 +61,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.3481167162, 60.4353509334, 1136.6178206333 ]
+				"coordinates" : [ 7.3471558827, 60.435346757, 1138.2588180156 ]
 			},
 			"properties" : {
 				"dist_akk" : "6",
@@ -72,7 +72,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.3636129094, 60.439486487, 1098.8127405133 ]
+				"coordinates" : [ 7.3624212384, 60.4395213397, 1104.6535834112 ]
 			},
 			"properties" : {
 				"dist_akk" : "7",
@@ -83,7 +83,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.3729649684, 60.4448484964, 1075.1074895659 ]
+				"coordinates" : [ 7.3716153254, 60.4446820652, 1075.0945826166 ]
 			},
 			"properties" : {
 				"dist_akk" : "8",
@@ -94,7 +94,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.383159362, 60.4503147229, 1127.3940256066 ]
+				"coordinates" : [ 7.3817905935, 60.4503752222, 1121.4353485096 ]
 			},
 			"properties" : {
 				"dist_akk" : "9",
@@ -105,7 +105,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.4004648147, 60.4505370971, 1171.7676568868 ]
+				"coordinates" : [ 7.3986805179, 60.4503740209, 1168.9814751349 ]
 			},
 			"properties" : {
 				"dist_akk" : "10",
@@ -116,7 +116,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.4181564428, 60.4501617059, 1186.0439129623 ]
+				"coordinates" : [ 7.4161624221, 60.4500921566, 1185.6540893299 ]
 			},
 			"properties" : {
 				"dist_akk" : "11",
@@ -127,7 +127,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.4323496509, 60.4468680515, 1191.0325036517 ]
+				"coordinates" : [ 7.4310309342, 60.4476912633, 1190.5808776794 ]
 			},
 			"properties" : {
 				"dist_akk" : "12",
@@ -138,7 +138,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.4442067208, 60.4431345022, 1147.9019386425 ]
+				"coordinates" : [ 7.4426433896, 60.4439556662, 1162.7224049866 ]
 			},
 			"properties" : {
 				"dist_akk" : "13",
@@ -149,7 +149,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.456487171, 60.4392625489, 989.0636344654 ]
+				"coordinates" : [ 7.4548537816, 60.4397536726, 1004.1654696224 ]
 			},
 			"properties" : {
 				"dist_akk" : "14",
@@ -160,7 +160,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.46169902, 60.431292918, 950.4364539336 ]
+				"coordinates" : [ 7.4600155774, 60.4322922207, 950.694657248 ]
 			},
 			"properties" : {
 				"dist_akk" : "15",
@@ -171,7 +171,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.4772531299, 60.4289578264, 1007.6376639213 ]
+				"coordinates" : [ 7.4744164792, 60.4290917425, 998.9009954672 ]
 			},
 			"properties" : {
 				"dist_akk" : "16",
@@ -182,7 +182,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.4929358594, 60.4262258238, 1057.9000244141 ]
+				"coordinates" : [ 7.4899442628, 60.4258961066, 1057.1831897647 ]
 			},
 			"properties" : {
 				"dist_akk" : "17",
@@ -193,7 +193,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.4873455317, 60.4264934325, 1047.1634755199 ]
+				"coordinates" : [ 7.4903250021, 60.425905625, 1057.4687325846 ]
 			},
 			"properties" : {
 				"dist_akk" : "18",
@@ -204,7 +204,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.4716745258, 60.4289135518, 988.6599330917 ]
+				"coordinates" : [ 7.4747975863, 60.4290942343, 999.5039858462 ]
 			},
 			"properties" : {
 				"dist_akk" : "19",
@@ -215,7 +215,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.4589968873, 60.4337992824, 959.2958159584 ]
+				"coordinates" : [ 7.4601626856, 60.4321186307, 951.8309531054 ]
 			},
 			"properties" : {
 				"dist_akk" : "20",
@@ -226,7 +226,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.4518639787, 60.4405299997, 1013.0453701923 ]
+				"coordinates" : [ 7.4550915404, 60.4397257008, 1003.5683577929 ]
 			},
 			"properties" : {
 				"dist_akk" : "21",
@@ -237,7 +237,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.4398988485, 60.4445463111, 1174.8445683143 ]
+				"coordinates" : [ 7.4427650391, 60.4438513957, 1161.4545559773 ]
 			},
 			"properties" : {
 				"dist_akk" : "22",
@@ -248,7 +248,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.4277174008, 60.448365539, 1193.8576101269 ]
+				"coordinates" : [ 7.4311917588, 60.4476065527, 1189.2064197125 ]
 			},
 			"properties" : {
 				"dist_akk" : "23",
@@ -259,7 +259,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.4121270926, 60.4502327272, 1178.4799803734 ]
+				"coordinates" : [ 7.4164048483, 60.4501086575, 1185.7412417603 ]
 			},
 			"properties" : {
 				"dist_akk" : "24",
@@ -270,7 +270,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.394403764, 60.4501620171, 1160.5963082584 ]
+				"coordinates" : [ 7.3989202982, 60.4503938918, 1169.4810558725 ]
 			},
 			"properties" : {
 				"dist_akk" : "25",
@@ -281,7 +281,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.3799051433, 60.4484917165, 1097.9142714381 ]
+				"coordinates" : [ 7.3818591702, 60.4504009385, 1121.6639166665 ]
 			},
 			"properties" : {
 				"dist_akk" : "26",
@@ -292,7 +292,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.3713808739, 60.4426670254, 1069.1848333065 ]
+				"coordinates" : [ 7.3716790708, 60.4446572309, 1074.9584635801 ]
 			},
 			"properties" : {
 				"dist_akk" : "27",
@@ -303,7 +303,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.3583199447, 60.4382126225, 1123.6081925992 ]
+				"coordinates" : [ 7.3624947181, 60.4395011313, 1104.1660193075 ]
 			},
 			"properties" : {
 				"dist_akk" : "28",
@@ -314,7 +314,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.3424307391, 60.4343078597, 1139.7848589197 ]
+				"coordinates" : [ 7.3471189441, 60.4353470683, 1138.2135882404 ]
 			},
 			"properties" : {
 				"dist_akk" : "29",
@@ -325,7 +325,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.3271864614, 60.4380728226, 1099.8718005824 ]
+				"coordinates" : [ 7.3317391016, 60.4368047457, 1122.896873485 ]
 			},
 			"properties" : {
 				"dist_akk" : "30",
@@ -336,7 +336,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.3106791454, 60.4385818372, 1075.0011812858 ]
+				"coordinates" : [ 7.3161499052, 60.4388328897, 1085.7275011887 ]
 			},
 			"properties" : {
 				"dist_akk" : "31",
@@ -347,7 +347,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.2938487475, 60.4383227219, 998.8174513947 ]
+				"coordinates" : [ 7.2987648273, 60.4384213326, 1056.123192455 ]
 			},
 			"properties" : {
 				"dist_akk" : "32",
@@ -358,7 +358,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.2827221752, 60.4349044347, 827.7541616847 ]
+				"coordinates" : [ 7.2861133407, 60.4367406281, 858.9325134739 ]
 			},
 			"properties" : {
 				"dist_akk" : "33",
@@ -369,7 +369,7 @@
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 7.275374038, 60.4278621612, 792.7057980708 ]
+				"coordinates" : [ 7.2770772198, 60.4306258302, 814.7925240299 ]
 			},
 			"properties" : {
 				"dist_akk" : "34",
