@@ -1096,7 +1096,6 @@ $.getJSON("../resources/data/hvm/hvm_k21_markers.json", function (data) {
 // });
 });
 
-
 // *** K's markers ***
 var k43_markersLayer = L.geoJson(null);
 var k43_markers = L.geoJson(null, {
