@@ -1011,8 +1011,8 @@ $.getJSON("../resources/data/hvm/hvm_short_course_poi.json", function (data) {
 
 
 // *** K's markers ***
-var k_markersLayer = L.geoJson(null);
-var k_markers = L.geoJson(null, {
+var k21_markersLayer = L.geoJson(null);
+var k21_markers = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {
       icon: L.icon({
@@ -1083,23 +1083,112 @@ direction: 'top',offset:L.point(-15,-15)});
 		// STOP - Denne vil gi ein boks som vert ståande på skjermen inntil man klikkar	
 			
 });
-$.getJSON("../resources/data/hvm/hvm_k_markers.json", function (data) {
-  k_markers.addData(data);
-  map.addLayer(k_markersLayer);
-  map.on('zoomend', function() {
-    if (map.getZoom() <13){
-            map.removeLayer(k_markers);
-    }
-    else {
-            map.addLayer(k_markers);
-        }
+$.getJSON("../resources/data/hvm/hvm_k21_markers.json", function (data) {
+  k21_markers.addData(data);
+  map.addLayer(k21_markersLayer);
+  // map.on('zoomend', function() {
+    // if (map.getZoom() <13){
+            // map.removeLayer(k21_markers);
+    // }
+    // else {
+            // map.addLayer(k21_markers);
+        // }
+// });
 });
+
+
+// *** K's markers ***
+var k43_markersLayer = L.geoJson(null);
+var k43_markers = L.geoJson(null, {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, {
+      icon: L.icon({
+        iconUrl: "../resources/media/k_markers.png",
+        iconSize: [50, 50], 
+        iconAnchor: [25, 25], // xxx - halvparten av iconsize for å sikre at ikonet plasserast rett over punkt
+        popupAnchor: [0,0],
+			//
+      })
+	  // ,
+	  // title: "Dist " + feature.properties.dist_akk + " km, TO GO: " + feature.properties.dist_to_go + " km / " + feature.properties.climb_to_go + " m",
+      // riseOnHover: true
+    }).bindLabel(feature.properties.dist_akk, { noHide: true,
+direction: 'top',offset:L.point(-15,-15)});
+  },
+  // START - Dette er den vanlege popup boksen som man lyt klikke på close for å lukke
+  
+   // onEachFeature: function (feature, layer) {
+    // if (feature.properties) {
+      // var content = 
+	  // "<table class='table table-striped table-bordered table-condensed'>" + 
+	  // "<tr><th>Distanse</th><td>" + feature.properties.dist_akk + " km" + "</td></tr>" + 
+	  // "<tr><th>Distanse to go</th><td>" + feature.properties.dist_to_go + " km" +
+	  // "<tr><th>Climbed</th><td>" + feature.properties.s_akk_sum_h_up + " m" +  
+	  // "<tr><th>Climb to go</th><td>" + feature.properties.climb_to_go + " m" + 
+		// "<table>";
+      // layer.on({
+        // click: function (e) {
+          // $("#feature-title").html(feature.properties.title);
+          // $("#feature-info").html(content);
+          // $("#featureModal").modal("show");
+          // highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
+        // }
+      // });
+	  // // layer.on er nyttig dersom du vil vise noko fyrste gongen eit kartlag vert aktivert. Ikkje aktuelt for dei som er på som Default.
+	  // // layer.on({
+		  // // add: function (e) {
+          // // $("#feature-title").html(feature.properties.title);
+          // // $("#feature-info").html(content);
+          // // $("#featureModal").modal("show");
+          // // highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
+        // // }
+      // // });
+           
+    // }
+  // }
+  // STOPP - Dette er den vanlege popup boksen som man lyt klikke på close for å lukke
+  
+  // START - Denne vil gi ein boks som vert ståande på skjermen inntil man klikkar
+  onEachFeature: function (feature, layer) {
+
+                var myLayer = layer;
+
+                {
+                    myLayer.bindPopup(
+						'<b>Distance:</b> ' + feature.properties.dist_akk + ' km' + '<br >'
+//						+
+                        // '<b>Distance to go:</b> ' + feature.properties.dist_to_go + ' km' + '<br >' +
+                        // '<b>Climbed:</b> ' + feature.properties.s_akk_sum_h_up + ' m' +'<br >' +
+                        // '<b>Climb to go:</b> ' + feature.properties.climb_to_go + ' m')
+						);
+						// + '<br >'+ '<br >' + '<img src="../resources/img/k_markers.png" alt="Smiley face" height="42" width="42">' );
+                // Denne vil gi deg moglegheit for å vise eit bilete!!
+				}
+
+                return myLayer;
+            }
+		// STOP - Denne vil gi ein boks som vert ståande på skjermen inntil man klikkar	
+			
 });
+$.getJSON("../resources/data/hvm/hvm_k43_markers.json", function (data) {
+  k43_markers.addData(data);
+  map.addLayer(k43_markersLayer);
+  // map.on('zoomend', function() {
+    // if (map.getZoom() <13){
+            // map.removeLayer(k43_markers);
+    // }
+    // else {
+            // map.addLayer(k43_markers);
+        // }
+// });
+});
+
+
 
 map = L.map("map", {
   zoom: 12,
   center: [60.15, 7.77],
-  layers: [Kartverket_Topo2,k_markers,markerClusters, highlight],
+  layers: [Kartverket_Topo2,markerClusters, highlight],
   // layers: [mapquestKA2, kommune, markerClusters, highlight],
   // layers: [ml_1, ml_2,markerClusters, highlight],
   zoomControl: false,
@@ -1247,7 +1336,8 @@ var baseLayers = {
 var groupedOverlays = {
   "POI": {
     "<b>HVM</b>": hvm_long_course_poiLayer,
-	"K-markers":k_markers
+	"K-mark 21K":k21_markers,
+	"<b><font color='red'>K-mark 43K</b>":k43_markers
 	//,
 	//"<b>HVM 21K</b>": hvm_short_course_poiLayer,
 	//"<img src='../resources/img/g2_start_area.png' width='32' height='32'>": start_area_poiLayer,
@@ -1257,8 +1347,9 @@ var groupedOverlays = {
 	},
 
   "Map": {
-    "<b><font color='red'> HVM 43K</b>": course1Lines,
-	"<b>HVM 21K</b>": course2Lines
+    "<b>HVM 21K</b>": course2Lines,
+	"<b><font color='red'> HVM 43K</b>": course1Lines
+	
 	//
 	//"Grade":route_h_catLines
 	//"Area": area_polygon,
