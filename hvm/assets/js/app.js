@@ -562,7 +562,7 @@ var markerClusters = new L.MarkerClusterGroup({
   spiderfyOnMaxZoom: true,
   showCoverageOnHover: true, // xxx - markering av omsluttende polygon for dei punktene som ligg i ein cluster
   zoomToBoundsOnClick: true,
-  disableClusteringAtZoom: 16 // xxx - her definerer du målestokk for der clustering skal deaktiverast
+  disableClusteringAtZoom: 12 // xxx - her definerer du målestokk for der clustering skal deaktiverast
 });
 
 /* Empty layer placeholder to add to layer control for listening when to add/remove stigning to markerClusters layer */
