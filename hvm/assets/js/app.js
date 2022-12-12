@@ -1172,14 +1172,14 @@ direction: 'top',offset:L.point(-15,-15)});
 $.getJSON("../resources/data/hvm/hvm_k43_markers.json", function (data) {
   k43_markers.addData(data);
   map.addLayer(k43_markersLayer);
-  // map.on('zoomend', function() {
-    // if (map.getZoom() <13){
-            // map.removeLayer(k43_markers);
-    // }
-    // else {
-            // map.addLayer(k43_markers);
-        // }
-// });
+  map.on('zoomend', function() {
+    if (map.getZoom() <13){
+            map.removeLayer(k43_markers);
+    }
+    else {
+            map.addLayer(k43_markers);
+        }
+});
 });
 
 

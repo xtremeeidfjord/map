@@ -1175,14 +1175,14 @@ direction: 'top',offset:L.point(-15,-15)});
 $.getJSON("../resources/data/hju/hju_k95_markers.json", function (data) {
   k95_markers.addData(data);
   map.addLayer(k95_markersLayer);
-  // map.on('zoomend', function() {
-    // if (map.getZoom() <13){
-            // map.removeLayer(k95_markers);
-    // }
-    // else {
-            // map.addLayer(k95_markers);
-        // }
-// });
+  map.on('zoomend', function() {
+    if (map.getZoom() <13){
+            map.removeLayer(k95_markers);
+    }
+    else {
+            map.addLayer(k95_markers);
+        }
+});
 });
 
 map = L.map("map", {

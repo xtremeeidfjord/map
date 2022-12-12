@@ -1089,14 +1089,14 @@ direction: 'top',offset:L.point(-15,-15)});
 $.getJSON("../resources/data/hju/hju_alt_k100_markers.json", function (data) {
   k100_markers.addData(data);
   map.addLayer(k100_markersLayer);
-  // map.on('zoomend', function() {
-    // if (map.getZoom() <13){
-            // map.removeLayer(k100_markers);
-    // }
-    // else {
-            // map.addLayer(k100_markers);
-        // }
-// });
+  map.on('zoomend', function() {
+    if (map.getZoom() <13){
+            map.removeLayer(k100_markers);
+    }
+    else {
+            map.addLayer(k100_markers);
+        }
+});
 });
 
 // *** K's markers 35K***
@@ -1175,7 +1175,7 @@ direction: 'top',offset:L.point(-15,-15)});
 $.getJSON("../resources/data/hju/hju_alt_k35_markers.json", function (data) {
   k35_markers.addData(data);
   map.addLayer(k35_markersLayer);
-  // map.on('zoomend', function() {
+  map.on('zoomend', function() {
     // if (map.getZoom() <13){
             // map.removeLayer(k35_markers);
     // }
