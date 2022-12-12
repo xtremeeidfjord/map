@@ -1016,9 +1016,9 @@ var k21_markers = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {
       icon: L.icon({
-        iconUrl: "../resources/media/k_markers.png",
+        iconUrl: "../resources/media/black_circle.png",
         iconSize: [50, 50], 
-        iconAnchor: [25, 25], // xxx - halvparten av iconsize for å sikre at ikonet plasserast rett over punkt
+        iconAnchor: [26, 25], // xxx - halvparten av iconsize for å sikre at ikonet plasserast rett over punkt
         popupAnchor: [0,0],
 			//
       })
@@ -1086,14 +1086,14 @@ direction: 'top',offset:L.point(-15,-15)});
 $.getJSON("../resources/data/hvm/hvm_k21_markers.json", function (data) {
   k21_markers.addData(data);
   map.addLayer(k21_markersLayer);
-  // map.on('zoomend', function() {
-    // if (map.getZoom() <13){
-            // map.removeLayer(k21_markers);
-    // }
-    // else {
-            // map.addLayer(k21_markers);
-        // }
-// });
+  map.on('zoomend', function() {
+    if (map.getZoom() <13){
+            map.removeLayer(k21_markers);
+    }
+    else {
+            map.addLayer(k21_markers);
+        }
+});
 });
 
 // *** K's markers ***
@@ -1102,9 +1102,9 @@ var k43_markers = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {
       icon: L.icon({
-        iconUrl: "../resources/media/k_markers.png",
+        iconUrl: "../resources/media/red_circle.png",
         iconSize: [50, 50], 
-        iconAnchor: [25, 25], // xxx - halvparten av iconsize for å sikre at ikonet plasserast rett over punkt
+        iconAnchor: [26, 25], // xxx - halvparten av iconsize for å sikre at ikonet plasserast rett over punkt
         popupAnchor: [0,0],
 			//
       })

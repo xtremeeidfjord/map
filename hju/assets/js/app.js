@@ -1019,9 +1019,9 @@ var k34_markers = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {
       icon: L.icon({
-        iconUrl: "../resources/media/k_markers.png",
+        iconUrl: "../resources/media/black_circle.png",
         iconSize: [50, 50], 
-        iconAnchor: [25, 25], // xxx - halvparten av iconsize for å sikre at ikonet plasserast rett over punkt
+        iconAnchor: [26, 25], // xxx - halvparten av iconsize for å sikre at ikonet plasserast rett over punkt
         popupAnchor: [0,0],
 			//
       })
@@ -1105,9 +1105,9 @@ var k95_markers = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {
       icon: L.icon({
-        iconUrl: "../resources/media/k_markers.png",
+        iconUrl: "../resources/media/red_circle.png",
         iconSize: [50, 50], 
-        iconAnchor: [25, 25], // xxx - halvparten av iconsize for å sikre at ikonet plasserast rett over punkt
+        iconAnchor: [26, 25], // xxx - halvparten av iconsize for å sikre at ikonet plasserast rett over punkt
         popupAnchor: [0,0],
 			//
       })
