@@ -37,7 +37,7 @@
             <a href="#" class="navbar-icon pull-right visible-xs" id="nav-btn"><i class="fa fa-bars fa-lg white"></i></a>
             <!-- <a href="#" class="navbar-icon pull-right visible-xs" id="sidebar-toggle-btn"><i class="fa fa-search fa-lg white"></i></a> -->
           </div>
-          <a class="navbar-brand" href="https://xtremeidfjord.no/hardangerjokulen-ultra/" target="_blank"><img width="300" height="32" src="../resources/media/logo-hd_hju.png"></a>
+          <a class="navbar-brand" href="https://xtremeidfjord.no/hardangervidda-marathon/" target="_blank"><img width="300" height="32" src="../resources/media/logo-hd_hvm.png"></a>
         <!--bootstrap.min.css -> .navbar-brand{float:left;height:74px;padding:5px -->
 		</div>
         <div class="navbar-collapse collapse">
@@ -53,7 +53,7 @@
 
             </li>
 			<li class="hidden-xs"><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="list-btn"><br><i class="fa fa-list white"></i>&nbsp;&nbsp;Show/Hide POI</a></li>
-	<li class="hidden-xs"><a data-toggle="collapse"  id="list-btn"><br><i class="fa fa-info"></i>&nbsp;&nbsp;Elevation 34K = 1330M+, 95K = 4980M+</a></li>
+
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
