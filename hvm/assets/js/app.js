@@ -200,7 +200,7 @@ var Esri_WorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/
   maxZoom: 17
 });
 
-var Kartverket_Topo2 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}", {
+var Kartverket_Topo2 = L.tileLayer("https://cache.kartverket.no/topograatone/v1/wmts/1.0.0/?layer=topograatone&style=default&tilematrixset=crs84quad&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix={z}&TileCol={x}&TileRow={y}", {
   maxZoom: 20,
   minZoom: 1,
   attribution: 'Tiles courtesy of <a href="Kartverket/" target="_blank">www.kartverket.no</a>">'
@@ -208,15 +208,17 @@ var Kartverket_Topo2 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/
 
 //https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}
 // https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?Version=1.0.0&service=wmts&request=getcapabilities
+// https://cache.kartverket.no/topograatone/v1/wmts/1.0.0/?layer=topograatone&style=default&tilematrixset=crs84quad&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix={z}&TileCol={x}&TileRow={y}
 
-var Kartverket0 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?&format=image/png&layers=topo2graatone&zoom={z}&x={x}&y={y}", {
+
+var Kartverket0 = L.tileLayer("https://cache.kartverket.no/topograatone/v1/wmts/1.0.0/?layer=topograatone&style=default&tilematrixset=crs84quad&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix={z}&TileCol={x}&TileRow={y}", {
   maxZoom: 20,
   zIndex: 1,
   attribution: 'Tiles <a href="https://www.kartverket.no/" target="_blank">Kartverket</a>'
 });
 // https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?Version=1.0.0&service=wmts&request=getcapabilities
 
-var Kartverket1 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?&layer=topo4graatone&style=default&tilematrixset=EPSG%3A3857&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix=EPSG%3A3857%3A{z}&TileCol={x}&TileRow={y}", {
+var Kartverket1 = L.tileLayer("https://cache.kartverket.no/topograatone/v1/wmts/1.0.0/?layer=topograatone&style=default&tilematrixset=crs84quad&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix={z}&TileCol={x}&TileRow={y}", {
   maxZoom: 20,
   zIndex: 1,
   attribution: 'Tiles <a href="https://www.kartverket.no/" target="_blank">Kartverket</a>' + '. Icons <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>'
