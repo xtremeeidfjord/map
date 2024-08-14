@@ -200,23 +200,7 @@ var Esri_WorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/
   maxZoom: 17
 });
 
-var Kartverket_Topo2 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}", {
-  maxZoom: 20,
-  minZoom: 1,
-  attribution: 'Tiles courtesy of <a href="Kartverket/" target="_blank">www.kartverket.no</a>">'
-});
-
-//https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}
-// https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?Version=1.0.0&service=wmts&request=getcapabilities
-
-var Kartverket0 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?&format=image/png&layers=topo2graatone&zoom={z}&x={x}&y={y}", {
-  maxZoom: 20,
-  zIndex: 1,
-  attribution: 'Tiles <a href="https://www.kartverket.no/" target="_blank">Kartverket</a>'
-});
-// https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?Version=1.0.0&service=wmts&request=getcapabilities
-
-var Kartverket1 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?&layer=topo4graatone&style=default&tilematrixset=EPSG%3A3857&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix=EPSG%3A3857%3A{z}&TileCol={x}&TileRow={y}", {
+var Kartverket_graatone = L.tileLayer("https://cache.kartverket.no/topograatone/v1/wmts/1.0.0/?layer=topograatone&style=default&tilematrixset=googlemaps&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix={z}&TileCol={x}&TileRow={y}", {
   maxZoom: 20,
   zIndex: 1,
   attribution: 'Tiles <a href="https://www.kartverket.no/" target="_blank">Kartverket</a>' + '. Icons <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>'
@@ -226,19 +210,6 @@ var Kartverket1 = L.tileLayer("https://opencache.statkart.no/gatekeeper/gk/gk.op
 var cartoLight = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png", {
   maxZoom: 20,
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://cartodb.com/attributions">CartoDB</a>' + '. Icons <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>'
-});
-
-// External wms-layers
-// https://openwms.statkart.no/skwms1/wms.topo3.graatone?request=GetCapabilities&Service=WMS
-// https://openwms.statkart.no/skwms1/wms.kartdata2?request=GetCapabilities&Service=WMS
-// https://openwms.statkart.no/skwms1/wms.topo2?request=GetCapabilities&Service=WMS
-
-var Kartverket2 = L.tileLayer.wms("https://openwms.statkart.no/skwms1/wms.topo3.graatone?", {
-    layers: 'topo3_graatone_WMS',
-    format: 'image/png',
-    transparent: true,
-    version: '1.1.1',
-    // attribution: "Kartverket.no"
 });
 
 var ml_2 = L.tileLayer.wms("https://openwms.statkart.no/skwms1/wms.topo4?", {
@@ -1189,7 +1160,7 @@ $.getJSON("../resources/data/hju/hju_alt_k35_markers.json", function (data) {
 map = L.map("map", {
   zoom: 12,
   center: [60.15, 7.77],
-  layers: [Kartverket1,markerClusters, highlight],
+  layers: [Kartverket_graatone,markerClusters, highlight],
   
   // layers: [mapquestKA2, kommune, markerClusters, highlight],
   // layers: [ml_1, ml_2,markerClusters, highlight],
@@ -1329,8 +1300,7 @@ if (document.body.clientWidth <= 767) {
 }
 
 var baseLayers = {
-	"Baselayer gray":Kartverket1,
-	"Baselayer color":Kartverket_Topo2,
+	"Baselayer":Kartverket_graatone,
 	"ESRI Imagery": Esri_WorldImagery
     };
 //bookmark

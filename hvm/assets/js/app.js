@@ -200,12 +200,6 @@ var Esri_WorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/
   maxZoom: 17
 });
 
-var Kartverket_farge = L.tileLayer("https://cache.kartverket.no/topograatone/v1/wmts/1.0.0/?layer=topograatone&style=default&tilematrixset=googlemaps&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix={z}&TileCol={x}&TileRow={y}", {
-  maxZoom: 20,
-  minZoom: 1,
-  attribution: 'Tiles courtesy of <a href="Kartverket/" target="_blank">www.kartverket.no</a>">'
-});
-
 var Kartverket_graatone = L.tileLayer("https://cache.kartverket.no/topograatone/v1/wmts/1.0.0/?layer=topograatone&style=default&tilematrixset=googlemaps&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix={z}&TileCol={x}&TileRow={y}", {
   maxZoom: 20,
   zIndex: 1,
@@ -1303,8 +1297,7 @@ if (document.body.clientWidth <= 767) {
 }
 
 var baseLayers = {
-	//"Baselayer color":Kartverket_farge,
-	"Baselayer gray":Kartverket_graatone,
+	"Baselayer":Kartverket_graatone,
 	"ESRI Imagery": Esri_WorldImagery
     };
 //bookmark
