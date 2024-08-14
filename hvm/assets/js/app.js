@@ -1303,7 +1303,7 @@ if (document.body.clientWidth <= 767) {
 }
 
 var baseLayers = {
-	"Baselayer color":Kartverket_farge,
+	//"Baselayer color":Kartverket_farge,
 	"Baselayer gray":Kartverket_graatone,
 	"ESRI Imagery": Esri_WorldImagery
     };
