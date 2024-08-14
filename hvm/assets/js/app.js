@@ -1176,7 +1176,7 @@ $.getJSON("../resources/data/hvm/hvm_k43_markers.json", function (data) {
 map = L.map("map", {
   zoom: 12,
   center: [60.15, 7.77],
-  layers: [Kartverket_Topo2,markerClusters, highlight],
+  layers: [Kartverket_graatone,markerClusters, highlight],
   // layers: [mapquestKA2, kommune, markerClusters, highlight],
   // layers: [ml_1, ml_2,markerClusters, highlight],
   zoomControl: false,
