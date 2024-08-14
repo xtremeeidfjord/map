@@ -217,18 +217,6 @@ var cartoLight = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://cartodb.com/attributions">CartoDB</a>' + '. Icons <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>'
 });
 
-// External wms-layers
-// https://openwms.statkart.no/skwms1/wms.topo3.graatone?request=GetCapabilities&Service=WMS
-// https://openwms.statkart.no/skwms1/wms.kartdata2?request=GetCapabilities&Service=WMS
-// https://openwms.statkart.no/skwms1/wms.topo2?request=GetCapabilities&Service=WMS
-
-var Kartverket2 = L.tileLayer.wms("https://openwms.statkart.no/skwms1/wms.topo3.graatone?", {
-    layers: 'topo3_graatone_WMS',
-    format: 'image/png',
-    transparent: true,
-    version: '1.1.1',
-    // attribution: "Kartverket.no"
-});
 
 var ml_2 = L.tileLayer.wms("https://openwms.statkart.no/skwms1/wms.topo4?", {
     layers: 'Vannflate,Elver,Arealdekkeflate',
