@@ -200,11 +200,12 @@ var Esri_WorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/
   maxZoom: 17
 });
 
-var Kartverket_graatone = L.tileLayer("https://cache.kartverket.no/topograatone/v1/wmts/1.0.0/?layer=topograatone&style=default&tilematrixset=googlemaps&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix={z}&TileCol={x}&TileRow={y}", {
-  maxZoom: 20,
-  zIndex: 1,
-  attribution: 'Tiles <a href="https://www.kartverket.no/" target="_blank">Kartverket</a>' + '. Icons <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>'
+var Kartverket_graatone = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+{
+  attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
+  maxZoom: 17
 });
+
 
 var cartoLight = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png", {
   maxZoom: 20,
