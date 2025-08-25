@@ -200,12 +200,15 @@ var Esri_WorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/
   maxZoom: 17
 });
 
-var Kartverket_graatone = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-{
-  attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
-  maxZoom: 17
+var Kartverket_graatone = L.tileLayer.wms("https://wms.geonorge.no/skwms1/wms.topograatone?service=wms", {
+    layers: 'topograatone',
+    format: 'image/png',
+    transparent: true,
+	zIndex: 2,
+	opacity: 0.2,
+    version: '1.1.1',
+    // attribution: "Kartverket.no"
 });
-
 
 var cartoLight = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png", {
   maxZoom: 20,
