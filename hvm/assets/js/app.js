@@ -200,7 +200,7 @@ var Esri_WorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/
   maxZoom: 17
 });
 
-var Kartverket_graatone = L.tileLayer.wms("https://wms.geonorge.no/skwms1/wms.topograatone?service=wms", {
+var Kartverket_graatone = L.tileLayer.wms("https://wms.geonorge.no/skwms1/wms.topograatone?", {
     layers: 'topograatone',
     format: 'image/png',
     transparent: true,
