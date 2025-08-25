@@ -200,15 +200,16 @@ var Esri_WorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/
   maxZoom: 17
 });
 
-var Kartverket_graatone = L.tileLayer.wms("https://wms.geonorge.no/skwms1/wms.topograatone?", {
-    layers: 'topograatone',
-    format: 'image/png',
-    transparent: true,
-	zIndex: 2,
-	opacity: 0.2,
-    version: '1.1.1',
-    // attribution: "Kartverket.no"
-});
+var Kartverket_graatone = L.tileLayer.wms("https://wms.geonorge.no/skwms1/wms.topograatone?", 
+										  {
+    layers: "topograatone",
+    format: "image/jpeg",     // opaque tiles = proper contrast
+    transparent: false,       // no alpha
+    version: "1.3.0",         // server supports 1.3.0
+    crs: L.CRS.EPSG3857,      // web mercator
+    attribution: "© Kartverket/Geonorge"
+  }
+										 );
 
 var cartoLight = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png", {
   maxZoom: 20,
