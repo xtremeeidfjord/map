@@ -1076,8 +1076,8 @@ $.getJSON("../resources/data/hju/hju_k34_markers.json", function (data) {
 });
 
 // *** K's markers ***
-var k95_markersLayer = L.geoJson(null);
-var k95_markers = L.geoJson(null, {
+var k96_markersLayer = L.geoJson(null);
+var k96_markers = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {
       icon: L.icon({
@@ -1148,15 +1148,15 @@ direction: 'top',offset:L.point(-15,-15)});
 		// STOP - Denne vil gi ein boks som vert ståande på skjermen inntil man klikkar	
 			
 });
-$.getJSON("../resources/data/hju/hju_k95_markers.json", function (data) {
-  k95_markers.addData(data);
-  map.addLayer(k95_markersLayer);
+$.getJSON("../resources/data/hju/hju_k96_markers.json", function (data) {
+  k96_markers.addData(data);
+  map.addLayer(k96_markersLayer);
   map.on('zoomend', function() {
     if (map.getZoom() <13){
-            map.removeLayer(k95_markers);
+            map.removeLayer(k96_markers);
     }
     else {
-            map.addLayer(k95_markers);
+            map.addLayer(k96_markers);
         }
 });
 });
@@ -1312,7 +1312,7 @@ var groupedOverlays = {
   "POI": {
     "<b>HJU</b>": hju_long_course_poiLayer,
 	"K-mark 34K":k34_markers,
-	"<b><font color='red'>K-mark 95K</b>":k95_markers
+	"<b><font color='red'>K-mark 96K</b>":k96_markers
 	//,
 	//"<b>HJU 34K</b>": hju_short_course_poiLayer,
 	//"<img src='../resources/img/g2_start_area.png' width='32' height='32'>": start_area_poiLayer,
@@ -1323,7 +1323,7 @@ var groupedOverlays = {
 
   "Map": {
     "<b>HJU 34K</b>": course2Lines,
-	"<b><font color='red'> HJU 95K</b>": course1Lines
+	"<b><font color='red'> HJU 96K</b>": course1Lines
 	
 	//
 	//"Grade":route_h_catLines
