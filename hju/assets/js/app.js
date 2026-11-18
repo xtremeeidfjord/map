@@ -462,7 +462,7 @@ var course1Lines = L.geoJson(null, {
     });
   }
 });
-$.getJSON("../resources/data/hju/hju_long_course_line.json", function (data) {
+$.getJSON("../resources/data/hju/hju_long_course_line_2027_96K.json", function (data) {
   course1Lines.addData(data);
   map.addLayer(course1Lines);
 });
